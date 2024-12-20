@@ -1,4 +1,4 @@
-<Material MtlFlags="0" Shader="Illum" GenMask="268435456" SurfaceType="mat_concrete" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+<Material MtlFlags="2" Shader="Illum" GenMask="268435456" SurfaceType="mat_concrete" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
  <Textures>
   <Texture Map="Diffuse" File="Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas/Textures/rooms/carpet.DDS">
    <TexMod />
