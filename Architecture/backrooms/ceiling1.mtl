@@ -1,4 +1,4 @@
-<Material MtlFlags="0" Shader="Illum" GenMask="268435472" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+<Material MtlFlags="0" Shader="Illum" GenMask="268435472" SurfaceType="mat_rock_dusty" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
  <Textures>
   <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas/textures/rooms/BR_Dark_Green_diffuse.DDS">
    <TexMod />
