@@ -1,10 +1,10 @@
 <MetaData>
-	<MiniMap Filename="minimap.jpg" startX="878.572266" startY="830.517212" endX="2998.572266" endY="2950.517090"/>
+	<MiniMap Filename="minimap.jpg" startX="-14.109375" startY="17.816650" endX="4081.890625" endY="4113.816406/>
   	<Gamerules MP1="TeamSolarisArena" MP2="TerrainControl" MP3="TestofStrength"/>
 	<LoadingScreens screen1="loadingscreen.dds"/> 
 	<HeaderText text="TC_Manassas"/>
-	<DescriptionText text="The long lost super jump capable prototype jumpship Manassass had miss jumped...
-Get to the artifact and secure it for exploration ASAP soldier!
+	<DescriptionText text="The long lost super jump capable prototype jumpship Manassass had miss jumped... 
+Get to the artifact and secure it for exploration ASAP soldier! 
 Enemy contacts closing the primary objective ETA 2 minutes!"/>
 	<Display Name="TC_Manassas"/> 
 </MetaData>
