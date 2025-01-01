@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.3.2 commit date:2024-12-16, commit time:21:10, hash:32f5fdce0a0a</authoring_tool>
+    </contributor>
+    <created>2025-01-01T21:56:19</created>
+    <modified>2025-01-01T21:56:19</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="Gray-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.270599 0.270599 0.270599 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="glass-effect">
+      <profile_COMMON>
+        <newparam sid="Light_DDS-surface">
+          <surface type="2D">
+            <init_from>Light_DDS</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="Light_DDS-sampler">
+          <sampler2D>
+            <source>Light_DDS-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">1 1 1 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="Light_DDS-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="Light_DDS" name="Light_DDS">
+      <init_from>/home/cest/.wine/drive_c/Program%20Files%20(x86)/Electronic%20Arts/Crytek/Crysis%20Wars/Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas/Architecture/Props/all/CeilingLight/Light.DDS</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Gray-material" name="Gray">
+      <instance_effect url="#Gray-effect"/>
+    </material>
+    <material id="glass-material" name="glass">
+      <instance_effect url="#glass-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="CeilingLight-mesh" name="CeilingLight">
+      <mesh>
+        <source id="CeilingLight-mesh-positions">
+          <float_array id="CeilingLight-mesh-positions-array" count="48">1.25 1.25 -0.15 1.25 -1.25 -0.15 -1.25 1.25 -0.15 -1.25 -1.25 -0.15 1.25 1.25 0 -1.25 -1.25 0 1.25 -1.25 0 -1.25 1.25 0 -1.263258 -1.263258 0 -1.260825 -1.260825 0.151299 1.260825 -1.260825 0.151299 1.260825 1.260825 0.151299 -1.260825 1.260825 0.151299 1.263258 1.263258 0 1.263258 -1.263258 0 -1.263258 1.263258 0</float_array>
+          <technique_common>
+            <accessor source="#CeilingLight-mesh-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="CeilingLight-mesh-normals">
+          <float_array id="CeilingLight-mesh-normals-array" count="84">0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 1 0 0 -1 0 0 0 -1 0 0 0 1 0 -0.9998708 0.01607906 -0.9998708 0 0.01607906 0.9998708 0 0.01607906 0 0.9998708 0.01607906 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 1 0 0 -1 0 0 0 -1 0 0 0 1 0 -0.9998707 0.01607906 -0.9998707 0 0.01607906 0.9998707 0 0.01607906 0 0.9998707 0.01607906</float_array>
+          <technique_common>
+            <accessor source="#CeilingLight-mesh-normals-array" count="28" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="CeilingLight-mesh-map">
+          <float_array id="CeilingLight-mesh-map-array" count="168">0.007956683 1.515 0.9976385 1.49259 0.9926854 1.514984 -0.5149996 0.007948458 -0.4925909 0.9976316 -0.5149849 0.9926785 -6.44326e-5 0.9999548 1.000064 4.51207e-5 0.9999548 1.000064 1.514999 0.9920572 1.492604 0.002371191 1.514999 0.007624864 0.9920654 -0.5149989 0.002378165 -0.4926046 0.007631719 -0.5149999 0.9998798 1.5 -6.44326e-5 0.9999548 0.9999548 1.000064 -0.5 0.9998798 4.50015e-5 -6.43879e-5 -6.44326e-5 0.9999548 1.5 1.20044e-4 0.9999548 1.000064 1.000064 4.51207e-5 1.19984e-4 -0.5 1.000064 4.51207e-5 4.50015e-5 -6.43879e-5 0.003895342 0.9963928 0.9961125 0.003604233 0.9963966 0.9961034 0.9961125 0.003604233 0.002378165 -0.4926046 0.9972019 -0.4925162 0.003607869 0.003886222 -0.4925909 0.9976316 -0.4925171 0.002810895 0.9963966 0.9961034 1.492604 0.002371191 1.492517 0.9971937 0.003895342 0.9963928 0.9976385 1.49259 0.00281912 1.492517 0.007956683 1.515 0.00281912 1.492517 0.9976385 1.49259 -0.5149996 0.007948458 -0.4925171 0.002810895 -0.4925909 0.9976316 -6.44326e-5 0.9999548 4.50015e-5 -6.43879e-5 1.000064 4.51207e-5 1.514999 0.9920572 1.492517 0.9971937 1.492604 0.002371191 0.9920654 -0.5149989 0.9972019 -0.4925162 0.002378165 -0.4926046 0.9998798 1.5 1.57952e-5 1.5 -6.44326e-5 0.9999548 -0.5 0.9998798 -0.5 1.58548e-5 4.50015e-5 -6.43879e-5 1.5 1.20044e-4 1.5 0.9999842 0.9999548 1.000064 1.19984e-4 -0.5 0.999984 -0.4999999 1.000064 4.51207e-5 0.003895342 0.9963928 0.003607869 0.003886222 0.9961125 0.003604233 0.9961125 0.003604233 0.003607869 0.003886222 0.002378165 -0.4926046 0.003607869 0.003886222 0.003895342 0.9963928 -0.4925909 0.9976316 0.9963966 0.9961034 0.9961125 0.003604233 1.492604 0.002371191 0.003895342 0.9963928 0.9963966 0.9961034 0.9976385 1.49259</float_array>
+          <technique_common>
+            <accessor source="#CeilingLight-mesh-map-array" count="84" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="CeilingLight-mesh-vertices">
+          <input semantic="POSITION" source="#CeilingLight-mesh-positions"/>
+        </vertices>
+        <triangles material="Gray-material" count="10">
+          <input semantic="VERTEX" source="#CeilingLight-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#CeilingLight-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#CeilingLight-mesh-map" offset="2" set="0"/>
+          <p>0 2 6 3 2 7 2 2 8 7 5 15 0 5 16 2 5 17 4 6 18 1 6 19 0 6 20 5 7 21 2 7 22 3 7 23 6 8 24 3 8 25 1 8 26 0 16 48 1 16 49 3 16 50 7 19 57 4 19 58 0 19 59 4 20 60 6 20 61 1 20 62 5 21 63 7 21 64 2 21 65 6 22 66 5 22 67 3 22 68</p>
+        </triangles>
+        <triangles material="glass-material" count="18">
+          <input semantic="VERTEX" source="#CeilingLight-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#CeilingLight-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#CeilingLight-mesh-map" offset="2" set="0"/>
+          <p>7 0 0 13 0 1 4 0 2 5 1 3 15 1 4 7 1 5 4 3 9 14 3 10 6 3 11 6 4 12 8 4 13 5 4 14 12 9 27 10 9 28 11 9 29 10 10 30 8 10 31 14 10 32 9 11 33 15 11 34 8 11 35 11 12 36 14 12 37 13 12 38 12 13 39 13 13 40 15 13 41 7 14 42 15 14 43 13 14 44 5 15 45 8 15 46 15 15 47 4 17 51 13 17 52 14 17 53 6 18 54 14 18 55 8 18 56 12 23 69 9 23 70 10 23 71 10 24 72 9 24 73 8 24 74 9 25 75 12 25 76 15 25 77 11 26 78 10 26 79 14 26 80 12 27 81 11 27 82 13 27 83</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="CeilingLight" name="CeilingLight" type="NODE">
+        <scale sid="scale">1 1 1</scale>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <translate sid="location">0 0 0</translate>
+        <instance_geometry url="#CeilingLight-mesh" name="CeilingLight">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Gray-material" target="#Gray-material"/>
+              <instance_material symbol="glass-material" target="#glass-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
