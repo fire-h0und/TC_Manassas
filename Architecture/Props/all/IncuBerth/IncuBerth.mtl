@@ -1,0 +1,63 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="Plastic_material" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="mat_plastic_nopierce" Diffuse="0.76470596,0.76470596,0.76470596" Specular="1,1,1" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/library/props/kitchen/metalsheet.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/library/props/kitchen/metalsheet.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="textures/cubemaps/test1.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="Screens_material" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="mat_glass_bulletproof" Diffuse="0.30000001,0.30000001,0.30000001" Specular="0,0,0" Emissive="0,0,0" Opacity="1" GlowAmount="2">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/objects_mwll/Architecture/Props/Comstar/TessaPony/terminal_textures/terminal##01_10count(0.1).dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="textures/cubemaps/test1.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="Metal_material" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="mat_metal_sheet" Diffuse="0.16470589,0.15294118,0.56862748" Specular="0.99215692,0.99215692,0.99215692" Emissive="0,0,0" Shininess="50" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/library/props/kitchen/metalsheet.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/library/props/kitchen/metalsheet.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="textures/cubemaps/test1.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="Light_material" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="mat_glass_unbreakable" Diffuse="0.64705884,0.89019614,0.96078438" Specular="0,0,0" Emissive="0.64705884,0.89019614,0.96078438" Opacity="1" GlowAmount="6">
+   <Textures />
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="Glass_material" MtlFlags="130" Shader="Illum" GenMask="268436480" SurfaceType="mat_glass_unbreakable" Diffuse="0.36470589,0.80784321,0.8705883" Specular="3.0588238,3.0588238,3.0588238" Emissive="0.47058827,0.84705889,0.86274517" Shininess="50" Opacity="0.40000001" GlowAmount="1">
+   <Textures>
+    <Texture Map="Normalmap" File="textures/cubemaps/test1.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1" DetailDiffuseTilingX="10" DetailDiffuseTilingY="10" DetailDiffuseBlendFactor="0.5"/>
+  </Material>
+  <Material Name="Skin_material" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="mat_flesh" Diffuse="0.78039223,0.76862752,0.63137257" Specular="0.89019614,0.88627458,0.81568635" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/library/props/household/kitchen/cup_b.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+</Material>
