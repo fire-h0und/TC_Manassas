@@ -1,0 +1,467 @@
+<Objects>
+ <Object Type="Group" Layer="Main" Id="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Name="ForwardFactory" Pos="3365.25,1958.375,11.375" ColorRGB="65280" MergeGeom="0" Opened="0">
+  <Objects>
+   <Object Type="Entity" Layer="Main" Id="{AEE9EC04-EB31-4F72-A1F4-C4343C0477F8}" Name="SimpleLight32" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="14.375,-15.375,6" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="1" ViewDistRatio="2" HiddenInGame="0" RecvWind="0" EntityClass="SimpleLight">
+    <Properties bActive="1" Radius="20">
+     <Color clrColor="1,1,1" fColorMultiplier="2" fHDRDynamic="0" fSpecularPercentage="100"/>
+     <Options bAffectsThisAreaOnly="1" bCastShadow="1"/>
+     <Projector bProjectInAllDirs="0" fProjectorFov="90" texture_Texture=""/>
+     <Style fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaScale="1" nLightStyle="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Solid" Layer="Main" Id="{E9A2AF0F-C55D-47B2-87D4-7D5FC5AB57BE}" Name="Solid959" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="0.96972656,4.6809082,-9.6259003" Rotate="0.50000006,-0.50000006,-0.49999994,0.49999994" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194312" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-14.902588,29.048706,-6.3561249" p2="-14.902588,-2.7602534,-6.3561249" p3="-14.902588,-2.7602534,-8.4429436" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="12.988525,0.50280786,-6.3561249" p2="-8.7541504,0.50280786,-6.3561249" p3="-8.7541504,0.50280786,-8.4429436" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="14.903809,-2.7602534,-6.3561249" p2="14.903809,29.048706,-6.3561249" p3="14.903809,29.048706,-8.4429436" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-8.7541504,-0.50280738,-6.3561249" p2="12.988525,-0.50280738,-6.3561249" p3="12.988525,-0.50280738,-8.4429436" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-8.7541504,-2.7602537,15.752831" p2="-8.7541504,29.048706,15.752831" p3="12.988525,29.048706,15.752831" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="12.988525,29.048706,-15.753796" p2="-8.7541504,29.048706,-15.753796" p3="-8.7541504,-2.760253,-15.753796" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Solid" Layer="Main" Id="{BCCEF115-4CCC-44BA-9255-E26B341E88E8}" Name="Solid958" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="1.0214844,3.9020996,14.12162" Rotate="0.50000006,-0.50000006,-0.49999994,0.49999994" ColorRGB="16776960" Material="Objects/objects_mwll/Architecture/Critical_Structures/Single_MechHanger/shell_4" MatLayersMask="0" RndFlags="8" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-15.788208,29.271736,-6.3044281" p2="-15.788208,-2.5372233,-6.3044281" p3="-15.788208,-2.5372233,-8.3912468" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="13.767334,0.72583795,-6.3044281" p2="-7.9753418,0.72583795,-6.3044281" p3="-7.9753418,0.72583795,-8.3912468" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="15.682617,-2.5372233,-6.3044281" p2="15.682617,29.271736,-6.3044281" p3="15.682617,29.271736,-8.3912468" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-7.9753418,-0.52977729,-6.3044281" p2="13.767334,-0.52977729,-6.3044281" p3="13.767334,-0.52977729,-8.3912468" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-7.9753418,-2.5372245,16.054527" p2="-7.9753418,29.271736,16.054527" p3="13.767334,29.271736,16.054527" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="13.767334,29.271736,-15.952099" p2="-7.9753418,29.271736,-15.952099" p3="-7.9753418,-2.5372219,-15.952099" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Solid" Layer="Main" Id="{EAA9DD1F-3F00-44DB-9469-25AE86F94387}" Name="Solid964" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="13.771484,-10.5979,2.6216202" Rotate="-7.3757072e-008,0.70710677,-8.4293745e-008,-0.70710677" ColorRGB="16776960" Material="Objects/objects_mwll/Architecture/Critical_Structures/Single_MechHanger/shell_4" MatLayersMask="0" RndFlags="40" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-13.697935,29.709106,6.4455709" p2="-13.697935,-2.0998521,6.4455709" p3="-13.697935,-2.0998521,4.3587527" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="11.199038,1.6947031,6.4455719" p2="-10.543638,1.6947031,6.4455719" p3="-10.543638,1.6947031,4.3587532" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="13.114312,-2.0998526,6.4455719" p2="13.114312,29.709106,6.4455719" p3="13.114312,29.709106,4.3587532" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-10.543621,-2.2825906,6.4455719" p2="11.199055,-2.2825906,6.4455719" p3="11.199055,-2.2825906,4.3587532" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-10.543608,-2.099853,3.2550278" p2="-10.543608,29.709106,3.2550278" p3="11.199068,29.709106,3.2550278" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="11.199038,29.709106,-3.4520998" p2="-10.543638,29.709106,-3.4520998" p3="-10.543638,-2.0998521,-3.4520998" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Brush" Layer="Main" Id="{B0CC3D29-B467-44BF-BEC2-BA10A69CE501}" Name="GeomEntity860" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="-12.450439,-12.450195,4.0982361" Rotate="1,0,0,9.0792598e-015" Scale="0.78259993,0.78259993,0.78260005" ColorRGB="65535" MatLayersMask="0" Prefab="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" OutdoorOnly="0" CastShadowMaps="1" SupportSecondVisarea="0" CastRAMmap="0" ReceiveRAMmap="0" Hideable="0" LodRatio="200" ViewDistRatio="100" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="8"/>
+   <Object Type="Brush" Layer="Main" Id="{4972A02B-AD85-4248-8ED7-6E2B8CDE43EA}" Name="MH_Bay87" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="-39.789307,-35.993652,-9.1012726" Rotate="0.70710689,0,0,0.70710671" ColorRGB="65535" MatLayersMask="0" Prefab="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/MH_Bay1.cgf" OutdoorOnly="0" CastShadowMaps="1" SupportSecondVisarea="0" CastRAMmap="0" ReceiveRAMmap="0" Hideable="0" LodRatio="255" ViewDistRatio="100" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="8"/>
+   <Object Type="Entity" Layer="Main" Id="{E82A9D31-5DF2-4E3D-B8DF-84AB11D3839C}" Name="SimpleLight41" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="-1.8579102,8.4873047,-4.8985291" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="SimpleLight">
+    <Properties bActive="1" Radius="10">
+     <Color clrColor="1,1,1" fColorMultiplier="1" fHDRDynamic="0" fSpecularPercentage="100"/>
+     <Options bAffectsThisAreaOnly="1" bCastShadow="0"/>
+     <Projector bProjectInAllDirs="0" fProjectorFov="90" texture_Texture=""/>
+     <Style fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaScale="1" nLightStyle="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Solid" Layer="Main" Id="{D58B4938-DABB-4D9E-87F1-067E3BCC33AB}" Name="Solid951" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="15.771484,-5.0979004,1.6216202" Rotate="-7.3757043e-008,0.70710677,-8.4293731e-008,-0.70710677" ColorRGB="16776960" Material="Objects/objects_mwll/Architecture/Critical_Structures/Single_MechHanger/shell_4" MatLayersMask="0" RndFlags="8" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-12.820107,29.476318,-21.554428" p2="-12.820107,-2.3326416,-21.554428" p3="-12.820107,-2.3326416,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="10.199027,0.93041968,-21.554428" p2="-11.543649,0.93041968,-21.554428" p3="-11.543649,0.93041968,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="12.11431,-2.3326416,-21.554428" p2="12.11431,29.476318,-21.554428" p3="12.11431,29.476318,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-11.543649,-0.075195521,-21.554428" p2="10.199027,-0.075195521,-21.554428" p3="10.199027,-0.075195521,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-11.543649,-2.3326418,0.55452728" p2="-11.543649,29.476318,0.55452728" p3="10.199027,29.476318,0.55452728" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="10.199042,29.476318,-0.9520998" p2="-11.543633,29.476318,-0.9520998" p3="-11.543633,-2.3326402,-0.9520998" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Brush" Layer="Main" Id="{F5ED3C39-1BB0-4A64-9C59-8CBD7DD39B78}" Name="lightpole_set_wall2" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="14.258545,-12.318848,9.1557426" Rotate="-4.3711388e-008,-0,0,1" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects\objects_mwll\props\all\lightpole\lightpole_set_wall.cgf" OutdoorOnly="0" CastShadowMaps="0" SupportSecondVisarea="0" CastRAMmap="0" ReceiveRAMmap="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="0"/>
+   <Object Type="Solid" Layer="Main" Id="{6E1BBF3A-D00F-44F8-87F9-97EB77E4BDB1}" Name="Solid941" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="-12.228516,18.9021,3.1216202" Rotate="-7.375705e-008,0.70710677,-8.4293738e-008,-0.70710677" ColorRGB="16776960" Material="Objects/objects_mwll/Architecture/Critical_Structures/Single_MechHanger/shell_4" MatLayersMask="0" RndFlags="8" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-13.197943,30.213501,7.7417746" p2="-13.197943,-1.5954576,7.7417746" p3="-13.197943,-1.5954576,5.6549563" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="11.699038,2.1990976,7.7417755" p2="-10.043638,2.1990976,7.7417755" p3="-10.043638,2.1990976,5.6549568" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="13.614312,-1.595458,7.7417755" p2="13.614312,30.213501,7.7417755" p3="13.614312,30.213501,5.6549568" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-10.043621,-1.7781961,7.7417755" p2="11.699055,-1.7781961,7.7417755" p3="11.699055,-1.7781961,5.6549568" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-10.043616,-1.595458,3.0512323" p2="-10.043616,30.213501,3.0512323" p3="11.699059,30.213501,3.0512323" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="11.699029,30.213501,-2.6558952" p2="-10.043647,30.213501,-2.6558952" p3="-10.043647,-1.5954576,-2.6558952" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Shape" Layer="Main" Id="{F2316E3B-D3AC-4B0A-BCA3-7CD5087BF171}" Name="buyzone28" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="-13.924805,19.775879,-10.37838" Rotate="0.70710689,0,0,0.70710671" ColorRGB="16763904" Width="0" Height="25" AreaId="2" GroupId="0" Priority="0" Closed="1" ObstructRoof="0" ObstructFloor="0" DisplayFilled="1" EntityClass="AreaShape">
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="-31.289917,-0.30010986,0"/>
+     <Point Pos="-31.154175,-29.418396,0"/>
+     <Point Pos="0.045410156,-29.664001,0.27710724"/>
+    </Points>
+    <Entities>
+     <Entity Id="{15AC45BB-4210-479D-AC7E-63AF9E575F16}"/>
+    </Entities>
+   </Object>
+   <Object Type="Solid" Layer="Main" Id="{C79AE53D-CB37-4D46-82D0-10EC754E7164}" Name="Solid971" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="14.271484,18.9021,3.1216202" Rotate="-7.375705e-008,0.70710677,-8.4293738e-008,-0.70710677" ColorRGB="16776960" Material="Objects/objects_mwll/Architecture/Critical_Structures/Single_MechHanger/shell_4" MatLayersMask="0" RndFlags="8" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-13.197935,30.209106,6.9455709" p2="-13.197935,-1.5998521,6.9455709" p3="-13.197935,-1.5998521,4.8587527" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="11.699038,2.1947031,6.9455719" p2="-10.043638,2.1947031,6.9455719" p3="-10.043638,2.1947031,4.8587532" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="13.614312,-1.5998526,6.9455719" p2="13.614312,30.209106,6.9455719" p3="13.614312,30.209106,4.8587532" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-10.043621,-1.7825906,6.9455719" p2="11.699055,-1.7825906,6.9455719" p3="11.699055,-1.7825906,4.8587532" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-10.043615,-1.5998528,2.7550278" p2="-10.043615,30.209106,2.7550278" p3="11.69906,30.209106,2.7550278" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="11.699037,30.209106,-2.9520979" p2="-10.043639,30.209106,-2.9520979" p3="-10.043639,-1.5998521,-2.9520979" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Decal" Layer="Main" Id="{2E93063F-616B-4A4F-ADB9-D213200C8202}" Name="Decal3700" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="0.99487305,-7.4986572,-9.1439819" Rotate="4.333743e-008,5.705481e-009,0.043619394,0.99904823" ColorRGB="16744319" Material="objects/objects_mwll/Architecture/Critical_Structures/mech_hanger_single/opendecal" ProjectionType="0" ViewDistRatio="100" SortPriority="16" RndFlags="0"/>
+   <Object Type="Decal" Layer="Main" Id="{02C05F40-3F47-434F-9FB3-456179E7615C}" Name="Decal3695" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="-0.99023438,-10.653198,-9.1565247" Rotate="0.99904823,0.043619383,0,0" ColorRGB="16744319" Material="objects/objects_mwll/Architecture/Critical_Structures/mech_hanger_single/opendecal" ProjectionType="0" ViewDistRatio="100" SortPriority="16" RndFlags="0"/>
+   <Object Type="Brush" Layer="Main" Id="{084A6D4C-DDB5-4747-9413-8DB41C8B0299}" Name="bay56_lowerhall2" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="16.726807,-35.90271,-9.0996246" Rotate="0.70710677,0,0,-0.70710677" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects\objects_mwll\architecture\critical_structures\mechhangar\bay56_lowerhall.cgf" OutdoorOnly="0" CastShadowMaps="0" SupportSecondVisarea="0" CastRAMmap="0" ReceiveRAMmap="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="0"/>
+   <Object Type="Solid" Layer="Main" Id="{C226EF4F-178E-41CC-B4CA-F7B1F21F622F}" Name="Solid970" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="9.4841309,11.563721,2.9670792" Rotate="0.70710683,-0.70710677,8.4293696e-008,-5.2683564e-008" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194312" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-3.3427124,29.916824,-17.410751" p2="-3.3427124,-1.8921366,-17.410751" p3="-3.3427124,-1.8921366,-19.49757" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="1.4258423,0.66506159,-17.410751" p2="-20.316833,0.66506159,-17.410751" p3="-20.316833,0.66506159,-19.49757" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="3.3411255,-1.8921356,-17.410751" p2="3.3411255,29.916824,-17.410751" p3="3.3411255,29.916824,-19.49757" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-20.316833,-0.66506231,-17.410751" p2="1.4258423,-0.66506231,-17.410751" p3="1.4258423,-0.66506231,-19.49757" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-20.316833,-1.8921371,0.067344666" p2="-20.316833,29.916824,0.067344666" p3="1.4258423,29.916824,0.067344666" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="1.4258423,29.916824,-0.066905975" p2="-20.316833,29.916824,-0.066905975" p3="-20.316833,-1.8921347,-0.066905975" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Entity" Layer="Main" Id="{75EFBA58-EFFC-4CE6-95A4-9FE6AB7A47E0}" Name="SimpleLight42" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="7.4470215,8.9414063,-4.8985291" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="SimpleLight">
+    <Properties bActive="1" Radius="10">
+     <Color clrColor="1,1,1" fColorMultiplier="1" fHDRDynamic="0" fSpecularPercentage="100"/>
+     <Options bAffectsThisAreaOnly="1" bCastShadow="0"/>
+     <Projector bProjectInAllDirs="0" fProjectorFov="90" texture_Texture=""/>
+     <Style fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaScale="1" nLightStyle="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Solid" Layer="Main" Id="{B9F8EF66-E23C-4A63-BE53-3E71DC368BFA}" Name="Solid963" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="0.44824219,16.118896,0.50131989" Rotate="-7.9466336e-009,8.9406967e-008,1,-1.7467899e-015" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194312" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-13.632019,29.048704,-1.8693007" p2="-13.632019,-2.7602541,-1.8693007" p3="-13.632019,-2.7602541,-3.9561193" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="17.16925,0.5028078,-1.8693008" p2="-4.5734253,0.5028078,-1.8693008" p3="-4.5734253,0.5028078,-3.9561195" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="13.632996,-2.7602537,-1.8693008" p2="13.632996,29.048706,-1.8693008" p3="13.632996,29.048706,-3.9561195" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-1.9013062,-0.5028075,-1.8693008" p2="19.84137,-0.5028075,-1.8693008" p3="19.84137,-0.5028075,-3.9561195" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-1.9013062,-2.7602541,10.892014" p2="-1.9013062,29.048706,10.892014" p3="19.84137,29.048706,10.892014" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="19.84137,29.048706,-10.893078" p2="-1.9013062,29.048706,-10.893078" p3="-1.9013062,-2.760253,-10.893078" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Solid" Layer="Main" Id="{98EE9967-E407-4945-8369-ACBF17DCF065}" Name="Solid943" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="-8.4433594,4.178833,2.4518967" Rotate="0.50000006,-0.50000006,-0.49999994,0.49999994" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194312" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-7.3057861,29.401642,-15.769272" p2="-7.3057861,-2.4073186,-15.769272" p3="-7.3057861,-2.4073186,-17.856091" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="5.3917236,0.14987913,-15.769272" p2="-16.350952,0.14987913,-15.769272" p3="-16.350952,0.14987913,-17.856091" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="7.3070068,-2.4073181,-15.769272" p2="7.3070068,29.401642,-15.769272" p3="7.3070068,29.401642,-17.856091" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-16.350952,-0.14987215,-15.769272" p2="5.3917236,-0.14987215,-15.769272" p3="5.3917236,-0.14987215,-17.856091" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-16.350952,-2.4073193,1.7948227" p2="-16.350952,29.401642,1.7948227" p3="5.3917236,29.401642,1.7948227" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="5.3917236,29.401642,-1.7956657" p2="-16.350952,29.401642,-1.7956657" p3="-16.350952,-2.4073172,-1.7956657" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Decal" Layer="Main" Id="{F126D468-D838-4473-82B8-9ADA324464B9}" Name="Decal3693" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="3.0029297,-10.653198,-9.1565247" Rotate="0.99904823,0.043619383,0,0" ColorRGB="16744319" Material="objects/objects_mwll/Architecture/Critical_Structures/mech_hanger_single/opendecal" ProjectionType="0" ViewDistRatio="100" SortPriority="16" RndFlags="0"/>
+   <Object Type="Solid" Layer="Main" Id="{E144A37D-4399-41BD-8DD1-2038ACE6F029}" Name="Solid946" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="15.771484,2.9020996,1.6216202" Rotate="-7.3757043e-008,0.70710677,-8.4293731e-008,-0.70710677" ColorRGB="16776960" Material="Objects/objects_mwll/Architecture/Critical_Structures/Single_MechHanger/shell_4" MatLayersMask="0" RndFlags="8" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-12.820107,29.476318,-21.554428" p2="-12.820107,-2.3326416,-21.554428" p3="-12.820107,-2.3326416,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="10.199027,0.93041968,-21.554428" p2="-11.543649,0.93041968,-21.554428" p3="-11.543649,0.93041968,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="12.11431,-2.3326416,-21.554428" p2="12.11431,29.476318,-21.554428" p3="12.11431,29.476318,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-11.543649,-0.075195521,-21.554428" p2="10.199027,-0.075195521,-21.554428" p3="10.199027,-0.075195521,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-11.543649,-2.3326418,0.55452728" p2="-11.543649,29.476318,0.55452728" p3="10.199027,29.476318,0.55452728" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="10.199042,29.476318,-0.95209885" p2="-11.543633,29.476318,-0.95209885" p3="-11.543633,-2.3326411,-0.95209885" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Solid" Layer="Main" Id="{A5F88F83-00D9-4561-A98C-1E70BD5462A4}" Name="Solid965" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="1.2714844,18.6521,12.87162" Rotate="-7.375705e-008,0.70710677,-8.4293738e-008,-0.70710677" ColorRGB="16776960" Material="Objects/objects_mwll/Architecture/Critical_Structures/Single_MechHanger/shell_4" MatLayersMask="0" RndFlags="8" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-2.4479351,29.963501,8.2417736" p2="-2.4479351,-1.8454576,8.2417736" p3="-2.4479351,-1.8454576,6.1549554" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="21.44906,1.6990976,8.2417755" p2="-0.29361534,1.6990976,8.2417755" p3="-0.29361534,1.6990976,6.1549563" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="2.3643198,-1.845458,8.2417755" p2="2.3643198,29.963501,8.2417755" p3="2.3643198,29.963501,6.1549568" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-0.29361343,-1.7781961,8.2417746" p2="21.449062,-1.7781961,8.2417746" p3="21.449062,-1.7781961,6.1549559" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-0.29361629,-1.845458,11.051231" p2="-0.29361629,29.963501,11.051231" p3="21.449059,29.963501,11.051231" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="21.449036,29.963501,-11.155895" p2="-0.29363918,29.963501,-11.155895" p3="-0.29363918,-1.8454576,-11.155895" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Decal" Layer="Main" Id="{67F3AD83-5E26-4E6E-B744-871865E5B793}" Name="Decal3671" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="1.0229492,19.880005,1.1419983" Rotate="7.3756979e-008,8.4293703e-008,0.70710683,0.70710671" Scale="8.2989979,8.2989979,8.2989979" ColorRGB="16744319" Material="Textures/Decals/emblems/fed_suns" ProjectionType="0" ViewDistRatio="100" SortPriority="16" RndFlags="0"/>
+   <Object Type="Solid" Layer="Main" Id="{F8965B84-BC7F-49AF-AAAA-4D4E8D3A4D71}" Name="Solid949" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="-11.880371,11.07666,1.4701691" Rotate="0.70710689,0,0,0.70710671" ColorRGB="16776960" Material="Objects/objects_mwll/Architecture/Critical_Structures/Single_MechHanger/shell_2" MatLayersMask="0" RndFlags="8" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-0.61889648,30.342896,-10.011276" p2="-0.61889648,-1.4660645,-10.011276" p3="-0.61889648,-1.4660645,-12.098095" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="6.5927734,1.7969971,-10.011276" p2="-15.149902,1.7969971,-10.011276" p3="-15.149902,1.7969971,-12.098095" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="0.61901855,-1.4660645,-10.011276" p2="0.61901855,30.342896,-10.011276" p3="0.61901855,30.342896,-12.098095" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-15.149902,-1.7970581,-10.011276" p2="6.5927734,-1.7970581,-10.011276" p3="6.5927734,-1.7970581,-12.098095" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-15.149902,-1.4660645,12.097679" p2="-15.149902,30.342896,12.097679" p3="6.5927734,30.342896,12.097679" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="6.5927734,30.342896,-12.098095" p2="-15.149902,30.342896,-12.098095" p3="-15.149902,-1.4660645,-12.098095" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Brush" Layer="Main" Id="{B85FE284-FD13-4D13-B957-3B68E3E5C0B9}" Name="sign_welcome_heavyveh_south1" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="1.0212402,-12.046997,9.2069473" Rotate="0.70710671,0,0,-0.70710683" Scale="5,5,5" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/library/props/signs/sign_welcome_heavyveh.cgf" OutdoorOnly="0" CastShadowMaps="0" SupportSecondVisarea="0" CastRAMmap="0" ReceiveRAMmap="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="0"/>
+   <Object Type="Solid" Layer="Main" Id="{1F5D6187-1262-48C6-9814-C138EB470D1A}" Name="Solid952" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="-14.228516,-5.0979004,1.6216202" Rotate="-7.3757043e-008,0.70710677,-8.4293731e-008,-0.70710677" ColorRGB="16776960" Material="Objects/objects_mwll/Architecture/Critical_Structures/Single_MechHanger/shell_4" MatLayersMask="0" RndFlags="8" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-12.820107,29.476318,-21.554428" p2="-12.820107,-2.3326416,-21.554428" p3="-12.820107,-2.3326416,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="10.199027,0.93041968,-21.554428" p2="-11.543649,0.93041968,-21.554428" p3="-11.543649,0.93041968,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="12.11431,-2.3326416,-21.554428" p2="12.11431,29.476318,-21.554428" p3="12.11431,29.476318,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-11.543649,-0.075195521,-21.554428" p2="10.199027,-0.075195521,-21.554428" p3="10.199027,-0.075195521,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-11.543649,-2.3326418,0.55452728" p2="-11.543649,29.476318,0.55452728" p3="10.199027,29.476318,0.55452728" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="10.199042,29.476318,-0.9520998" p2="-11.543633,29.476318,-0.9520998" p3="-11.543633,-2.3326402,-0.9520998" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Entity" Layer="Main" Id="{0E452888-C9B2-44FE-BFB2-C2C9D5331210}" Name="SimpleLight44" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="-3.3039551,-2.2303467,-4.8985291" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="SimpleLight">
+    <Properties bActive="1" Radius="10">
+     <Color clrColor="1,1,1" fColorMultiplier="1" fHDRDynamic="0" fSpecularPercentage="100"/>
+     <Options bAffectsThisAreaOnly="1" bCastShadow="0"/>
+     <Projector bProjectInAllDirs="0" fProjectorFov="90" texture_Texture=""/>
+     <Style fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaScale="1" nLightStyle="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Solid" Layer="Main" Id="{4575068D-22D5-4909-84F5-CD37CF006E05}" Name="Solid954" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="-7.9506836,-2.9572754,2.9670792" Rotate="0.70710683,-0.70710677,8.4293696e-008,-5.2683564e-008" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194312" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-0.96948242,29.916824,-17.410324" p2="-0.96948242,-1.8921365,-17.410324" p3="-0.96948242,-1.8921365,-19.497143" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="6.494812,0.66506141,-17.410324" p2="-15.247864,0.66506141,-17.410324" p3="-15.247864,0.66506141,-19.497143" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="0.97058105,-1.8921355,-17.410324" p2="0.97058105,29.916824,-17.410324" p3="0.97058105,29.916824,-19.497143" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-15.247864,-0.66506249,-17.410324" p2="6.494812,-0.66506249,-17.410324" p3="6.494812,-0.66506249,-19.497143" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-15.247864,-1.8921372,0.067771912" p2="-15.247864,29.916824,0.067771912" p3="6.494812,29.916824,0.067771912" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="6.494812,29.916824,-0.066478729" p2="-15.247864,29.916824,-0.066478729" p3="-15.247864,-1.8921348,-0.066478729" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Decal" Layer="Main" Id="{F52EE18E-F63F-4A16-B11D-1629DB7E1E58}" Name="Decal3694" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="0.99487305,-10.653198,-9.1565247" Rotate="0.99904823,0.043619383,0,0" ColorRGB="16744319" Material="objects/objects_mwll/Architecture/Critical_Structures/mech_hanger_single/opendecal" ProjectionType="0" ViewDistRatio="100" SortPriority="16" RndFlags="0"/>
+   <Object Type="Solid" Layer="Main" Id="{02A5DC95-3C03-457A-BEA9-37C9A74DDBEF}" Name="Solid2394" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="1.125,2.625,-19.75" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194304" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-16.5,-4,16.125" p2="-16.5,-15.25,16.125" p3="-16.5,-15.25,9.875" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-2.375,15.25,16.125" p2="-16.5,15.25,16.125" p3="-16.5,15.25,9.875" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="16.375,-15.25,16.125" p2="16.375,-4,16.125" p3="16.375,-4,9.875" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-16.5,-15.25,16.125" p2="-2.375,-15.25,16.125" p3="-2.375,-15.25,9.875" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-16.5,-15.25,10.375" p2="-16.5,-4,10.375" p3="-2.375,-4,10.375" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-2.375,-4,-10.375" p2="-16.5,-4,-10.375" p3="-16.5,-15.25,-10.375" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Solid" Layer="Main" Id="{F44FF095-0AC2-446E-BF42-8F9EE2C430CE}" Name="Solid962" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="-14.228516,14.9021,1.6216202" Rotate="-7.375705e-008,0.70710677,-8.4293738e-008,-0.70710677" ColorRGB="16776960" Material="Objects/objects_mwll/Architecture/Critical_Structures/Single_MechHanger/shell_4" MatLayersMask="0" RndFlags="8" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-12.820107,29.476318,-21.554428" p2="-12.820107,-2.3326416,-21.554428" p3="-12.820107,-2.3326416,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="10.199027,0.93041968,-21.554428" p2="-11.543649,0.93041968,-21.554428" p3="-11.543649,0.93041968,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="12.11431,-2.3326416,-21.554428" p2="12.11431,29.476318,-21.554428" p3="12.11431,29.476318,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-11.543649,-0.075195521,-21.554428" p2="10.199027,-0.075195521,-21.554428" p3="10.199027,-0.075195521,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-11.543649,-2.3326418,0.55452728" p2="-11.543649,29.476318,0.55452728" p3="10.199027,29.476318,0.55452728" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="10.199042,29.476318,-0.95209789" p2="-11.543633,29.476318,-0.95209789" p3="-11.543633,-2.3326402,-0.95209789" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Solid" Layer="Main" Id="{51BFE598-34E4-4F36-9A50-E9D08E266E39}" Name="Solid940" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="-3.2355957,11.563721,2.9670792" Rotate="0.70710683,-0.70710677,8.4293696e-008,-5.2683564e-008" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194312" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-3.3427124,29.916824,-17.410751" p2="-3.3427124,-1.8921366,-17.410751" p3="-3.3427124,-1.8921366,-19.49757" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="1.4258423,0.66506159,-17.410751" p2="-20.316833,0.66506159,-17.410751" p3="-20.316833,0.66506159,-19.49757" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="3.3411255,-1.8921356,-17.410751" p2="3.3411255,29.916824,-17.410751" p3="3.3411255,29.916824,-19.49757" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-20.316833,-0.66506231,-17.410751" p2="1.4258423,-0.66506231,-17.410751" p3="1.4258423,-0.66506231,-19.49757" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-20.316833,-1.8921371,0.067344666" p2="-20.316833,29.916824,0.067344666" p3="1.4258423,29.916824,0.067344666" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="1.4258423,29.916824,-0.066905975" p2="-20.316833,29.916824,-0.066905975" p3="-20.316833,-1.8921347,-0.066905975" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Solid" Layer="Main" Id="{937BEA98-012C-449B-89DC-0431BAA76F7E}" Name="Solid948" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="-9.59375,0.61987305,0.50131989" Rotate="-5.6191158e-009,0.70710689,0.70710665,-5.6191145e-009" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194312" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-10.841553,29.048706,-1.8693008" p2="-10.841553,-2.7602534,-1.8693008" p3="-10.841553,-2.7602534,-3.9561195" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="14.377441,0.50280797,-1.8693008" p2="-7.3652344,0.50280797,-1.8693008" p3="-7.3652344,0.50280797,-3.9561195" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="10.841187,-2.7602534,-1.8693008" p2="10.841187,29.048706,-1.8693008" p3="10.841187,29.048706,-3.9561195" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-4.6931152,-0.50280732,-1.8693008" p2="17.049561,-0.50280732,-1.8693008" p3="17.049561,-0.50280732,-3.9561195" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-4.6931152,-2.7602539,10.892014" p2="-4.6931152,29.048706,10.892014" p3="17.049561,29.048706,10.892014" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="17.049561,29.048706,-10.893078" p2="-4.6931152,29.048706,-10.893078" p3="-4.6931152,-2.7602527,-10.893078" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Solid" Layer="Main" Id="{06CF819A-8B86-4436-A440-73ED7A6A16D2}" Name="Solid953" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="-14.228516,2.9020996,1.6216202" Rotate="-7.3757043e-008,0.70710677,-8.4293731e-008,-0.70710677" ColorRGB="16776960" Material="Objects/objects_mwll/Architecture/Critical_Structures/Single_MechHanger/shell_4" MatLayersMask="0" RndFlags="8" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-12.820107,29.476318,-21.554428" p2="-12.820107,-2.3326416,-21.554428" p3="-12.820107,-2.3326416,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="10.199027,0.93041968,-21.554428" p2="-11.543649,0.93041968,-21.554428" p3="-11.543649,0.93041968,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="12.11431,-2.3326416,-21.554428" p2="12.11431,29.476318,-21.554428" p3="12.11431,29.476318,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-11.543649,-0.075195521,-21.554428" p2="10.199027,-0.075195521,-21.554428" p3="10.199027,-0.075195521,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-11.543649,-2.3326418,0.55452728" p2="-11.543649,29.476318,0.55452728" p3="10.199027,29.476318,0.55452728" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="10.199042,29.476318,-0.95209885" p2="-11.543633,29.476318,-0.95209885" p3="-11.543633,-2.3326411,-0.95209885" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Entity" Layer="Main" Id="{C350849B-AD9F-4954-A077-7AB326B196A3}" Name="SimpleLight43" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="7.0183105,-2.2303467,-4.8985291" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="SimpleLight">
+    <Properties bActive="1" Radius="10">
+     <Color clrColor="1,1,1" fColorMultiplier="1" fHDRDynamic="0" fSpecularPercentage="100"/>
+     <Options bAffectsThisAreaOnly="1" bCastShadow="0"/>
+     <Projector bProjectInAllDirs="0" fProjectorFov="90" texture_Texture=""/>
+     <Style fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaScale="1" nLightStyle="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Solid" Layer="Main" Id="{8110A79B-985C-4E88-B264-B9525A41806C}" Name="Solid944" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="0.91503906,4.682373,10.089729" Rotate="0.50000006,-0.50000006,-0.49999994,0.49999994" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194312" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-14.904053,29.520134,-6.4109344" p2="-14.904053,-2.2888255,-6.4109344" p3="-14.904053,-2.2888255,-8.4977531" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="12.987061,0.97423577,-6.4109344" p2="-8.7556152,0.97423577,-6.4109344" p3="-8.7556152,0.97423577,-8.4977531" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="14.902344,-2.2888255,-6.4109344" p2="14.902344,29.520134,-6.4109344" p3="14.902344,29.520134,-8.4977531" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-8.7556152,-0.9742353,-6.4109344" p2="12.987061,-0.9742353,-6.4109344" p3="12.987061,-0.9742353,-8.4977531" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-8.7556152,-2.2888267,14.788292" p2="-8.7556152,29.520134,14.788292" p3="12.987061,29.520134,14.788292" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="12.987061,29.520134,-14.788952" p2="-8.7556152,29.520134,-14.788952" p3="-8.7556152,-2.2888241,-14.788952" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Solid" Layer="Main" Id="{EF20F69B-C804-4C47-801A-9B72CD947215}" Name="Solid975" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="0.96972656,4.6809082,-10.361679" Rotate="0.50000006,-0.50000006,-0.49999994,0.49999994" ColorRGB="16776960" Material="Objects/objects_mwll/Architecture/Critical_Structures/Single_MechHanger/shell_4" MatLayersMask="0" RndFlags="8" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-14.902588,29.048706,-6.3561249" p2="-14.902588,-2.7602534,-6.3561249" p3="-14.902588,-2.7602534,-8.4429436" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="12.988525,0.50280786,-6.3561249" p2="-8.7541504,0.50280786,-6.3561249" p3="-8.7541504,0.50280786,-8.4429436" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="14.903809,-2.7602534,-6.3561249" p2="14.903809,29.048706,-6.3561249" p3="14.903809,29.048706,-8.4429436" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-8.7541504,-0.50280738,-6.3561249" p2="12.988525,-0.50280738,-6.3561249" p3="12.988525,-0.50280738,-8.4429436" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-8.7541504,-2.7602537,15.752831" p2="-8.7541504,29.048706,15.752831" p3="12.988525,29.048706,15.752831" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="12.988525,29.048706,-15.753796" p2="-8.7541504,29.048706,-15.753796" p3="-8.7541504,-2.760253,-15.753796" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Solid" Layer="Main" Id="{5E973A9D-B7BC-4D2D-A943-AB6D14368F80}" Name="Solid968" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="1.322998,-10.30835,12.09713" Rotate="-7.3757064e-008,0.70710677,-8.4293745e-008,-0.70710677" ColorRGB="16776960" Material="Objects/objects_mwll/Architecture/Critical_Structures/Single_MechHanger/shell_4" MatLayersMask="0" RndFlags="40" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-3.2224255,30.003052,8.2933483" p2="-3.2224255,-1.8059068,8.2933483" p3="-3.2224255,-1.8059068,6.2065301" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="20.67457,1.7386484,8.2933502" p2="-1.0681057,1.7386484,8.2933502" p3="-1.0681057,1.7386484,6.206531" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="3.2227335,-1.8059072,8.2933502" p2="3.2227335,30.003052,8.2933502" p3="3.2227335,30.003052,6.2065315" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-1.0681038,-1.7386453,8.2933493" p2="20.674572,-1.7386453,8.2933493" p3="20.674572,-1.7386453,6.2065306" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-1.0681067,-1.8059072,11.102806" p2="-1.0681067,30.003052,11.102806" p3="20.674568,30.003052,11.102806" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="20.674545,30.003052,-11.104321" p2="-1.0681295,30.003052,-11.104321" p3="-1.0681295,-1.8059068,-11.104321" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Solid" Layer="Main" Id="{3C1A6DA1-4982-4F83-844F-9A7B641A1F60}" Name="Solid950" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="15.771484,10.9021,1.6216202" Rotate="-7.3757043e-008,0.70710677,-8.4293731e-008,-0.70710677" ColorRGB="16776960" Material="Objects/objects_mwll/Architecture/Critical_Structures/Single_MechHanger/shell_4" MatLayersMask="0" RndFlags="8" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-12.820107,29.476318,-21.554428" p2="-12.820107,-2.3326416,-21.554428" p3="-12.820107,-2.3326416,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="10.199027,0.93041968,-21.554428" p2="-11.543649,0.93041968,-21.554428" p3="-11.543649,0.93041968,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="12.11431,-2.3326416,-21.554428" p2="12.11431,29.476318,-21.554428" p3="12.11431,29.476318,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-11.543649,-0.075195521,-21.554428" p2="10.199027,-0.075195521,-21.554428" p3="10.199027,-0.075195521,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-11.543649,-2.3326418,0.55452728" p2="-11.543649,29.476318,0.55452728" p3="10.199027,29.476318,0.55452728" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="10.199042,29.476318,-0.95209885" p2="-11.543633,29.476318,-0.95209885" p3="-11.543633,-2.3326411,-0.95209885" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Solid" Layer="Main" Id="{42604DA5-2EDD-456B-AE84-11B306BD1BFF}" Name="Solid957" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="15.771484,-1.0979004,1.6216202" Rotate="-7.3757043e-008,0.70710677,-8.4293731e-008,-0.70710677" ColorRGB="16776960" Material="Objects/objects_mwll/Architecture/Critical_Structures/Single_MechHanger/shell_4" MatLayersMask="0" RndFlags="8" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-12.820107,29.476318,-21.554428" p2="-12.820107,-2.3326416,-21.554428" p3="-12.820107,-2.3326416,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="10.199027,0.93041968,-21.554428" p2="-11.543649,0.93041968,-21.554428" p3="-11.543649,0.93041968,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="12.11431,-2.3326416,-21.554428" p2="12.11431,29.476318,-21.554428" p3="12.11431,29.476318,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-11.543649,-0.075195521,-21.554428" p2="10.199027,-0.075195521,-21.554428" p3="10.199027,-0.075195521,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-11.543649,-2.3326418,0.55452728" p2="-11.543649,29.476318,0.55452728" p3="10.199027,29.476318,0.55452728" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="10.199042,29.476318,-0.95209885" p2="-11.543633,29.476318,-0.95209885" p3="-11.543633,-2.3326411,-0.95209885" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Entity" Layer="Main" Id="{A6D4CBAA-708A-4776-BA06-517EB9B795E4}" Name="SimpleLight31" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="-12.25,-15.375,6" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="1" ViewDistRatio="2" HiddenInGame="0" RecvWind="0" EntityClass="SimpleLight">
+    <Properties bActive="1" Radius="20">
+     <Color clrColor="1,1,1" fColorMultiplier="2" fHDRDynamic="0" fSpecularPercentage="100"/>
+     <Options bAffectsThisAreaOnly="1" bCastShadow="1"/>
+     <Projector bProjectInAllDirs="0" fProjectorFov="90" texture_Texture=""/>
+     <Style fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaScale="1" nLightStyle="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Solid" Layer="Main" Id="{2785D5AD-B6D5-4161-BFCC-8223EC4E45EB}" Name="Solid966" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="0.96972656,-15.769287,-10.6119" Rotate="0.54167527,-0.45451951,-0.54167509,0.45451951" ColorRGB="16776960" Material="Objects/objects_mwll/Architecture/Critical_Structures/Single_MechHanger/shell_4" MatLayersMask="0" RndFlags="8" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-5.7406445,29.663015,-6.3561854" p2="-5.7406445,-2.1459432,-6.3561854" p3="-5.7406445,-2.1459432,-8.4430046" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="18.666708,0.50281394,-6.3561859" p2="-3.0759678,0.50281394,-6.3561859" p3="-3.0759678,0.50281394,-8.4430046" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="5.7388229,-5.3774767,-6.3561859" p2="5.7388229,26.431482,-6.3561859" p3="5.7388229,26.431482,-8.4430046" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-3.0759678,-0.5028013,-6.3561859" p2="18.666708,-0.5028013,-6.3561859" p3="18.666708,-0.5028013,-8.4430046" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-3.0759678,-2.7602477,15.752769" p2="-3.0759678,29.048712,15.752769" p3="18.666708,29.048712,15.752769" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="18.666708,29.048712,-15.753857" p2="-3.0759678,29.048712,-15.753857" p3="-3.0759678,-2.760247,-15.753857" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Brush" Layer="Main" Id="{2B2782AF-BB87-4066-9162-8C25447C59FE}" Name="GeomEntity861" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="14.421387,-12.450195,4.0982361" Rotate="1,0,0,9.0792598e-015" Scale="0.78259993,0.78259993,0.78260005" ColorRGB="65535" MatLayersMask="0" Prefab="Objects/objects_mwll/Architecture/Critical_Structures/MechHangar/banner.cgf" OutdoorOnly="0" CastShadowMaps="1" SupportSecondVisarea="0" CastRAMmap="0" ReceiveRAMmap="0" Hideable="0" LodRatio="200" ViewDistRatio="100" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="8"/>
+   <Object Type="Solid" Layer="Main" Id="{834382AF-6D8E-4103-97C3-EA3BB6BC5FFA}" Name="Solid960" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="-14.228516,6.9020996,1.6216202" Rotate="-7.375705e-008,0.70710677,-8.4293738e-008,-0.70710677" ColorRGB="16776960" Material="Objects/objects_mwll/Architecture/Critical_Structures/Single_MechHanger/shell_4" MatLayersMask="0" RndFlags="8" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-12.820107,29.476318,-21.554428" p2="-12.820107,-2.3326416,-21.554428" p3="-12.820107,-2.3326416,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="10.199027,0.93041968,-21.554428" p2="-11.543649,0.93041968,-21.554428" p3="-11.543649,0.93041968,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="12.11431,-2.3326416,-21.554428" p2="12.11431,29.476318,-21.554428" p3="12.11431,29.476318,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-11.543649,-0.075195521,-21.554428" p2="10.199027,-0.075195521,-21.554428" p3="10.199027,-0.075195521,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-11.543649,-2.3326418,0.55452728" p2="-11.543649,29.476318,0.55452728" p3="10.199027,29.476318,0.55452728" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="10.199042,29.476318,-0.95209885" p2="-11.543633,29.476318,-0.95209885" p3="-11.543633,-2.3326411,-0.95209885" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Solid" Layer="Main" Id="{4170EDB4-68CA-487D-A6E0-74D999B25234}" Name="Solid969" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="-13.469482,4.1369629,1.4701691" Rotate="0.70710689,0,0,0.70710671" ColorRGB="16776960" Material="Objects/objects_mwll/Architecture/Critical_Structures/Single_MechHanger/shell_2" MatLayersMask="0" RndFlags="8" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-15.443115,29.048706,-10.011276" p2="-15.443115,-2.7602539,-10.011276" p3="-15.443115,-2.7602539,-12.098095" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="13.532471,0.50280762,-10.011276" p2="-8.2102051,0.50280762,-10.011276" p3="-8.2102051,0.50280762,-12.098095" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="15.442505,-2.7602539,-10.011276" p2="15.442505,29.048706,-10.011276" p3="15.442505,29.048706,-12.098095" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-8.2102051,-0.50280762,-10.011276" p2="13.532471,-0.50280762,-10.011276" p3="13.532471,-0.50280762,-12.098095" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-8.2102051,-2.7602539,12.097679" p2="-8.2102051,29.048706,12.097679" p3="13.532471,29.048706,12.097679" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="13.532471,29.048706,-12.098095" p2="-8.2102051,29.048706,-12.098095" p3="-8.2102051,-2.7602539,-12.098095" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Entity" Layer="Main" Id="{191F2BB6-6465-4E52-8BDC-90268DD5AA93}" Name="Door64" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="1.1298828,-9.7399902,-0.26874542" Scale="4.1999998,4.1999998,4.1999998" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="Door">
+    <Properties bActivatePortal="0" bLocked="0" fileModel="objects/library/architecture/underground_base/tunnels/metal_gate.cgf" soclasses_SmartObjectClass="Door" bSquashPlayers="0" fUseDistance="2.5">
+     <Rotation fAcceleration="0" sAxis="z" sFrontAxis="y" fRange="0" bRelativeToUser="1" fSpeed="0" fStopTime="0"/>
+     <Slide fAcceleration="20" sAxis="z" fRange="-4.3" fSpeed="20" fStopTime="0.5"/>
+     <Sounds fRange="100" soundSoundOnMove="sounds/environment:doors:metal_thick_door_open" soundSoundOnStop="sounds/environment:doors:metal_thick_door_close" soundSoundOnStopClosed="" fVolume="400"/>
+    </Properties>
+   </Object>
+   <Object Type="Decal" Layer="Main" Id="{906203C3-DFBB-43C4-8098-D735615B607E}" Name="Decal3701" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="3.0029297,-7.4986572,-9.1439819" Rotate="4.333743e-008,5.705481e-009,0.043619394,0.99904823" ColorRGB="16744319" Material="objects/objects_mwll/Architecture/Critical_Structures/mech_hanger_single/opendecal" ProjectionType="0" ViewDistRatio="100" SortPriority="16" RndFlags="0"/>
+   <Object Type="Entity" Layer="Main" Id="{CCAE1AC5-A131-48ED-9DD5-86548B6D66A0}" Name="ProximityTrigger3" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="0.55566406,-9.7581787,-5.3519554" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ProximityTrigger">
+    <Properties bActivateWithUseButton="0" DimX="20" DimY="10" DimZ="30" bEnabled="1" EnterDelay="0" ExitDelay="0" bInVehicleOnly="0" bKillOnTrigger="0" bOnlyAI="0" bOnlyMyPlayer="0" bOnlyOneEntity="0" bOnlyPlayer="1" OnlySelectedEntity="None" bOnlySpecialAI="0" PlaySequence="" ReferenceName="" ScriptCommand="" TextInstruction="" bTriggerOnce="0"/>
+    <FlowGraph Description="" Group="bla" enabled="1" MultiPlayer="ClientServer">
+     <Nodes>
+      <Node Id="2" Class="entity:ProximityTrigger" pos="-330,-170,0" flags="0" GraphEntity="0">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="4" Class="entity:Door" pos="100,-170,0" flags="1" EntityGUID="{191F2BB6-6465-4E52-8BDC-90268DD5AA93}" EntityGUID_64="4E526465191F2BB6">
+       <Inputs entityId="0" Close="0" Lock="0" Open="0" UnLock="0"/>
+      </Node>
+      <Node Id="5" Class="Time:Delay" pos="-150,-40,0" flags="0">
+       <Inputs delay="3"/>
+      </Node>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="4" nodeOut="2" portIn="Open" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="5" nodeOut="2" portIn="in" portOut="Leave" enabled="1"/>
+      <Edge nodeIn="4" nodeOut="5" portIn="Close" portOut="out" enabled="1"/>
+     </Edges>
+    </FlowGraph>
+   </Object>
+   <Object Type="Solid" Layer="Main" Id="{C526C1C6-352A-40A3-BD57-6D83030DCCB8}" Name="Solid967" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="13.430176,3.0002441,2.5013199" Rotate="-5.6191158e-009,0.70710689,0.70710665,-5.6191145e-009" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194312" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-13.221924,29.048706,-1.8693008" p2="-13.221924,-2.7602534,-1.8693008" p3="-13.221924,-2.7602534,-3.9561195" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="11.99707,0.50280797,-1.8693008" p2="-9.7456055,0.50280797,-1.8693008" p3="-9.7456055,0.50280797,-3.9561195" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="13.223022,-2.7602534,-1.8693008" p2="13.223022,29.048706,-1.8693008" p3="13.223022,29.048706,-3.9561195" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-7.0734863,-0.50280732,-1.8693008" p2="14.669189,-0.50280732,-1.8693008" p3="14.669189,-0.50280732,-3.9561195" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-7.0734863,-2.7602539,10.892014" p2="-7.0734863,29.048706,10.892014" p3="14.669189,29.048706,10.892014" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="14.669189,29.048706,-10.893078" p2="-7.0734863,29.048706,-10.893078" p3="-7.0734863,-2.7602527,-10.893078" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Solid" Layer="Main" Id="{FFCBC4CA-2219-4FF6-B238-E28ADFCC3B36}" Name="Solid974" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="-6.7817383,4.244751,2.9670792" Rotate="0.50000006,-0.50000006,-0.49999994,0.49999994" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194312" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-7.3717041,29.916824,-17.410812" p2="-7.3717041,-1.8921362,-17.410812" p3="-7.3717041,-1.8921362,-19.497631" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="5.3258057,0.66506147,-17.410812" p2="-16.41687,0.66506147,-17.410812" p3="-16.41687,0.66506147,-19.497631" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="7.3734131,-1.8921357,-17.410812" p2="7.3734131,29.916824,-17.410812" p3="7.3734131,29.916824,-19.497631" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-16.41687,-0.66506243,-17.410812" p2="5.3258057,-0.66506243,-17.410812" p3="5.3258057,-0.66506243,-19.497631" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-16.41687,-1.8921372,0.06728363" p2="-16.41687,29.916824,0.06728363" p3="5.3258057,29.916824,0.06728363" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="5.3258057,29.916824,-0.06696701" p2="-16.41687,29.916824,-0.06696701" p3="-16.41687,-1.8921348,-0.06696701" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Solid" Layer="Main" Id="{A04523CB-54D0-4CA2-8450-146A5EB41E3B}" Name="Solid972" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="-14.228516,10.9021,1.6216202" Rotate="-7.3757043e-008,0.70710677,-8.4293731e-008,-0.70710677" ColorRGB="16776960" Material="Objects/objects_mwll/Architecture/Critical_Structures/Single_MechHanger/shell_4" MatLayersMask="0" RndFlags="8" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-12.820107,29.476318,-21.554428" p2="-12.820107,-2.3326416,-21.554428" p3="-12.820107,-2.3326416,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="10.199027,0.93041968,-21.554428" p2="-11.543649,0.93041968,-21.554428" p3="-11.543649,0.93041968,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="12.11431,-2.3326416,-21.554428" p2="12.11431,29.476318,-21.554428" p3="12.11431,29.476318,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-11.543649,-0.075195521,-21.554428" p2="10.199027,-0.075195521,-21.554428" p3="10.199027,-0.075195521,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-11.543649,-2.3326418,0.55452728" p2="-11.543649,29.476318,0.55452728" p3="10.199027,29.476318,0.55452728" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="10.199042,29.476318,-0.95209885" p2="-11.543633,29.476318,-0.95209885" p3="-11.543633,-2.3326411,-0.95209885" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Solid" Layer="Main" Id="{D4F39FD1-F55C-41D0-8FCB-4BFF2317F6AF}" Name="Solid961" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="-12.228516,-10.5979,2.6216202" Rotate="-7.375705e-008,0.70710677,-8.4293738e-008,-0.70710677" ColorRGB="16776960" Material="Objects/objects_mwll/Architecture/Critical_Structures/Single_MechHanger/shell_4" MatLayersMask="0" RndFlags="8" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-13.697935,29.709106,7.2597799" p2="-13.697935,-2.0998521,7.2597799" p3="-13.697935,-2.0998521,5.1729617" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="11.199038,1.6947031,7.2597809" p2="-10.543638,1.6947031,7.2597809" p3="-10.543638,1.6947031,5.1729622" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="13.114312,-2.0998526,7.2597809" p2="13.114312,29.709106,7.2597809" p3="13.114312,29.709106,5.1729622" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-10.543621,-2.2825906,7.2597809" p2="11.199055,-2.2825906,7.2597809" p3="11.199055,-2.2825906,5.1729622" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-10.543615,-2.0998528,3.0692368" p2="-10.543615,29.709106,3.0692368" p3="11.19906,29.709106,3.0692368" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="11.199038,29.709106,-3.6378908" p2="-10.543638,29.709106,-3.6378908" p3="-10.543638,-2.0998521,-3.6378908" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Solid" Layer="Main" Id="{48BADFD9-39BD-4946-BD5C-974F66538FF3}" Name="Solid945" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="-14.228516,-1.0979004,1.6216202" Rotate="-7.3757043e-008,0.70710677,-8.4293731e-008,-0.70710677" ColorRGB="16776960" Material="Objects/objects_mwll/Architecture/Critical_Structures/Single_MechHanger/shell_4" MatLayersMask="0" RndFlags="8" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-12.820107,29.476318,-21.554428" p2="-12.820107,-2.3326416,-21.554428" p3="-12.820107,-2.3326416,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="10.199027,0.93041968,-21.554428" p2="-11.543649,0.93041968,-21.554428" p3="-11.543649,0.93041968,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="12.11431,-2.3326416,-21.554428" p2="12.11431,29.476318,-21.554428" p3="12.11431,29.476318,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-11.543649,-0.075195521,-21.554428" p2="10.199027,-0.075195521,-21.554428" p3="10.199027,-0.075195521,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-11.543649,-2.3326418,0.55452728" p2="-11.543649,29.476318,0.55452728" p3="10.199027,29.476318,0.55452728" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="10.199042,29.476318,-0.95209885" p2="-11.543633,29.476318,-0.95209885" p3="-11.543633,-2.3326411,-0.95209885" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Solid" Layer="Main" Id="{2C16F4E4-C0D6-40FE-A7D1-576C80725CAE}" Name="Solid942" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="15.771484,6.9020996,1.6216202" Rotate="-7.3757043e-008,0.70710677,-8.4293731e-008,-0.70710677" ColorRGB="16776960" Material="Objects/objects_mwll/Architecture/Critical_Structures/Single_MechHanger/shell_4" MatLayersMask="0" RndFlags="8" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-12.820107,29.476318,-21.554428" p2="-12.820107,-2.3326416,-21.554428" p3="-12.820107,-2.3326416,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="10.199027,0.93041968,-21.554428" p2="-11.543649,0.93041968,-21.554428" p3="-11.543649,0.93041968,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="12.11431,-2.3326416,-21.554428" p2="12.11431,29.476318,-21.554428" p3="12.11431,29.476318,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-11.543649,-0.075195521,-21.554428" p2="10.199027,-0.075195521,-21.554428" p3="10.199027,-0.075195521,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-11.543649,-2.3326418,0.55452728" p2="-11.543649,29.476318,0.55452728" p3="10.199027,29.476318,0.55452728" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="10.199042,29.476318,-0.95209885" p2="-11.543633,29.476318,-0.95209885" p3="-11.543633,-2.3326411,-0.95209885" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Solid" Layer="Main" Id="{DF7145E7-F155-4857-A68B-D175644A4D6E}" Name="Solid955" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="15.771484,14.9021,1.6216202" Rotate="-7.3757043e-008,0.70710677,-8.4293731e-008,-0.70710677" ColorRGB="16776960" Material="Objects/objects_mwll/Architecture/Critical_Structures/Single_MechHanger/shell_4" MatLayersMask="0" RndFlags="8" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-12.820107,29.476318,-21.554428" p2="-12.820107,-2.3326416,-21.554428" p3="-12.820107,-2.3326416,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="10.199027,0.93041968,-21.554428" p2="-11.543649,0.93041968,-21.554428" p3="-11.543649,0.93041968,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="12.11431,-2.3326416,-21.554428" p2="12.11431,29.476318,-21.554428" p3="12.11431,29.476318,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-11.543649,-0.075195521,-21.554428" p2="10.199027,-0.075195521,-21.554428" p3="10.199027,-0.075195521,-23.641247" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-11.543649,-2.3326418,0.55452728" p2="-11.543649,29.476318,0.55452728" p3="10.199027,29.476318,0.55452728" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="10.199042,29.476318,-0.95209789" p2="-11.543633,29.476318,-0.95209789" p3="-11.543633,-2.3326402,-0.95209789" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Brush" Layer="Main" Id="{116DAEE8-98A4-4DF0-91D2-4EFF4809BD30}" Name="radaroutpost1" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="0.35839844,3.9233398,14.625793" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects\objects_mwll\architecture\basestructures\radaroutpost\radaroutpost.cgf" OutdoorOnly="0" CastShadowMaps="1" SupportSecondVisarea="0" CastRAMmap="0" ReceiveRAMmap="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="8"/>
+   <Object Type="Solid" Layer="Main" Id="{124A68EB-5460-4A6B-A49D-C202F7EA63C3}" Name="Solid947" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="15.471924,4.1369629,1.4701691" Rotate="0.70710689,0,0,0.70710671" ColorRGB="16776960" Material="Objects/objects_mwll/Architecture/Critical_Structures/Single_MechHanger/shell_2" MatLayersMask="0" RndFlags="8" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-15.443115,29.048706,-10.011276" p2="-15.443115,-2.7602539,-10.011276" p3="-15.443115,-2.7602539,-12.098095" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="13.532471,0.50280762,-10.011276" p2="-8.2102051,0.50280762,-10.011276" p3="-8.2102051,0.50280762,-12.098095" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="15.442505,-2.7602539,-10.011276" p2="15.442505,29.048706,-10.011276" p3="15.442505,29.048706,-12.098095" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-8.2102051,-0.50280762,-10.011276" p2="13.532471,-0.50280762,-10.011276" p3="13.532471,-0.50280762,-12.098095" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-8.2102051,-2.7602539,12.097679" p2="-8.2102051,29.048706,12.097679" p3="13.532471,29.048706,12.097679" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="13.532471,29.048706,-12.098095" p2="-8.2102051,29.048706,-12.098095" p3="-8.2102051,-2.7602539,-12.098095" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+   <Object Type="Decal" Layer="Main" Id="{62BA28FA-760B-4FBA-90BC-A6F17A3264DE}" Name="Decal3699" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="-0.99023438,-7.4986572,-9.1439819" Rotate="4.333743e-008,5.705481e-009,0.043619394,0.99904823" ColorRGB="16744319" Material="objects/objects_mwll/Architecture/Critical_Structures/mech_hanger_single/opendecal" ProjectionType="0" ViewDistRatio="100" SortPriority="16" RndFlags="0"/>
+   <Object Type="Solid" Layer="Main" Id="{703AE3FA-439B-402B-BE30-38D888C4F800}" Name="Solid973" Parent="{F8696CC0-E4C2-4914-8F5E-9E06DBA79883}" Pos="1.0458984,15.531616,2.451889" Rotate="0.50000006,-0.50000006,-0.49999994,0.49999994" ColorRGB="16776960" Material="Materials/special/collision_proxy_nomaterialset" MatLayersMask="0" RndFlags="4194312" ViewDistRatio="100" LMQuality="1">
+    <Brush>
+     <Face p1="-4.0522461,29.401634,-6.280014" p2="-4.0522461,-2.4073253,-6.280014" p3="-4.0522461,-2.4073253,-8.3668327" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="2.1378174,0.14987206,-6.280014" p2="-19.604858,0.14987206,-6.280014" p3="-19.604858,0.14987206,-8.3668327" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="4.0531006,-2.4073253,-6.280014" p2="4.0531006,29.401634,-6.280014" p3="4.0531006,29.401634,-8.3668327" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-19.604858,-0.14987922,-6.280014" p2="2.1378174,-0.14987922,-6.280014" p3="2.1378174,-0.14987922,-8.3668327" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="-19.604858,-2.4073265,14.516991" p2="-19.604858,29.401634,14.516991" p3="2.1378174,29.401634,14.516991" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+     <Face p1="2.1378174,29.401634,-14.515636" p2="-19.604858,29.401634,-14.515636" p3="-19.604858,-2.4073238,-14.515636" MatId="0" TexScale="1,1,0" TexShift="0,0,0" TexRotate="0"/>
+    </Brush>
+   </Object>
+  </Objects>
+ </Object>
+</Objects>
