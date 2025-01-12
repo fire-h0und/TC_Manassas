@@ -2,13 +2,13 @@
  <SubMaterials>
   <Material Name="SubMtl1" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="mat_cardboard" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
    <Textures>
-    <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas/textures/rooms/BR_1_diffuse.DDS">
+    <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas/textures/rooms/BR_3_diffuse.DDS">
      <TexMod />
     </Texture>
-    <Texture Map="Specular" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas/textures/rooms/BR_1_diffuse.DDS">
+    <Texture Map="Specular" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas/textures/rooms/BR_3_diffuse.DDS">
      <TexMod />
     </Texture>
-    <Texture Map="Normalmap" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas/textures/rooms/BR_1_nm.DDS" Amount="50">
+    <Texture Map="Normalmap" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas/textures/rooms/BR_3_nm.DDS" Amount="50">
      <TexMod />
     </Texture>
    </Textures>
@@ -16,7 +16,10 @@
   </Material>
   <Material Name="SubMtl2" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="mat_rock_dusty" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
    <Textures>
-    <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas/textures/rooms/BR_Dark_Green_diffuse.DDS">
+    <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas/textures/rooms/TerrazzoVenetianMatteWhite_diffuse.DDS">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas/textures/rooms/TerrazzoVenetianMatteWhite_nm.DDS">
      <TexMod />
     </Texture>
    </Textures>
@@ -24,10 +27,10 @@
   </Material>
   <Material Name="SubMtl3" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="mat_concrete" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
    <Textures>
-    <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas/textures/rooms/GrayCarpet_diffuse.DDS">
+    <Texture Map="Diffuse" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas/textures/rooms/carpet.DDS">
      <TexMod />
     </Texture>
-    <Texture Map="Bumpmap" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas/textures/rooms/GrayCarpet_nm.DDS" Amount="50">
+    <Texture Map="Bumpmap" File="mods/mwll/game/levels/multiplayer/tc/tc_manassas/textures/rooms/Carpet_nm.DDS" Amount="50">
      <TexMod />
     </Texture>
    </Textures>
