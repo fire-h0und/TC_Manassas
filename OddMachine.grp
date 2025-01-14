@@ -1,0 +1,3 @@
+<Objects>
+ <Object Type="Brush" Layer="Defenses" Id="{6DCDE49A-B46A-4D28-B446-21979CC594B7}" Name="odd_machine" Pos="2903.875,3014.375,121.375" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/library/props/electronic_devices/misc/asian_artifact_scanner/asian_artifact_scanner_top.cgf" OutdoorOnly="0" CastShadowMaps="0" SupportSecondVisarea="0" CastRAMmap="0" ReceiveRAMmap="0" Hideable="0" LodRatio="200" ViewDistRatio="50" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="0"/>
+</Objects>
