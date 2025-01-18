@@ -1,5 +1,5 @@
 <MetaData>
-	<MiniMap Filename="minimap.jpg" startX="-14.109375" startY="17.816650" endX="4081.890625" endY="4113.816406/>
+	<MiniMap Filename="minimap.jpg" startX="0.000000" startY="0.000000" endX="4096.000000" endY="4096.000000"/>
   	<Gamerules MP1="TeamSolarisArena" MP2="TerrainControl" MP3="TestofStrength"/>
 	<LoadingScreens screen1="loadingscreen.dds"/> 
 	<HeaderText text="TC_Manassas"/>
