@@ -1,0 +1,36 @@
+<Objects>
+ <Object Type="Group" Layer="Operation" Id="{68214D1C-1D9C-492D-B0C7-2E38B418D24C}" Name="AgroMech2" Pos="1038,2443,-154" ColorRGB="65280" MergeGeom="0" Opened="0">
+  <Objects>
+   <Object Type="Brush" Layer="Operation" Id="{CE453050-E6B9-47C5-A790-12FE688CD58E}" Name="body12" Parent="{68214D1C-1D9C-492D-B0C7-2E38B418D24C}" Pos="-1.2198486,1.0458984,0.5" Rotate="0.819152,0,0,0.57357651" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects\objects_mwll\architecture\industrial\mechs\agromech_mk2\body.cgf" OutdoorOnly="0" CastShadowMaps="1" SupportSecondVisarea="0" CastRAMmap="1" ReceiveRAMmap="1" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="1064"/>
+   <Object Type="Entity" Layer="Operation" Id="{DF26C6ED-F786-4F37-BAEF-FD2F692D425C}" Name="thresher2" Parent="{68214D1C-1D9C-492D-B0C7-2E38B418D24C}" Pos="3.7540283,0.93408203,2.3424072" Rotate="0.030799372,-0.4724952,0.87894887,-0.056996495" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="RigidBodyEx">
+    <Properties bAutoGenAIHidePts="0" bCanShatter="1" bFreezable="1" object_Model="Objects/objects_mwll/architecture/industrial/mechs/agromech_mk2/rotor.cgf" object_ModelFrozen="" bPickable="0" soclasses_SmartObjectClass="" bUsable="0" UseText="">
+     <Physics bActivateOnDamage="0" bCanBreakOthers="0" Density="-1" Mass="-1" bPhysicalize="0" bPushableByPlayers="0" bResting="1" bRigidBody="1" bRigidBodyActive="0">
+      <Buoyancy water_damping="0" water_density="1000" water_resistance="1000"/>
+      <Simulation damping="0" bFixedDamping="0" max_time_step="0.02" sleep_speed="0.04" bUseSimpleSolver="0"/>
+     </Physics>
+    </Properties>
+    <FlowGraph Description="" Group="Ambient" enabled="1" MultiPlayer="ClientServer">
+     <Nodes>
+      <Node Id="3" Class="Start" pos="-320,50,0" flags="1">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="5" Class="Movement:RotateEntity" pos="30,30,0" flags="1" GraphEntity="0">
+       <Inputs entityId="0" Speed="1500,0,0" Paused="0" Ref="1"/>
+      </Node>
+      <Node Id="6" Class="Logic:NOT" pos="-110,50,0" flags="1">
+       <Inputs in="0"/>
+      </Node>
+      <Node Id="9" Class="CrysisFX:PostFXGlittering" pos="50,-70,0" flags="1">
+       <Inputs Glittering_Active="0"/>
+      </Node>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="6" nodeOut="3" portIn="in" portOut="output" enabled="1"/>
+      <Edge nodeIn="5" nodeOut="6" portIn="Paused" portOut="out" enabled="1"/>
+      <Edge nodeIn="9" nodeOut="6" portIn="Glittering_Active" portOut="out" enabled="1"/>
+     </Edges>
+    </FlowGraph>
+   </Object>
+  </Objects>
+ </Object>
+</Objects>
