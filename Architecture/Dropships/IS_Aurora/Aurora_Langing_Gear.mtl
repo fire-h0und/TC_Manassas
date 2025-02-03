@@ -26,7 +26,7 @@
      <TexMod TexMod_TexGenType="4"/>
     </Texture>
    </Textures>
-   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75" ReflectionAmount="0.25" FresnelBias="0" FresnelScale="1"/>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75" ReflectionAmount="0.80000001" FresnelBias="0.2" FresnelScale="1"/>
   </Material>
  </SubMaterials>
  <PublicParams AmbientMultiplier="1"/>
