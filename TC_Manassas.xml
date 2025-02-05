@@ -1,8 +1,8 @@
 <MetaData>
-	<MiniMap Filename="minimap3.dds" startX="0.000000" startY="0.000000" endX="4096.000000" endY="4096.000000" mapRadius="10"
-	Filename1="minimap3.dds" startX1="0.000000" startY1="0.000000" endX1="4096.000000" endY1="4096.000000" mapRadius1="10"
-	Filename2="minimap0.dds" startX2="0.000000" startY2="0.000000" endX2="4096.000000" endY2="4096.000000" mapRadius2="20"
-	Filename3="minimap1.dds" startX3="0.000000" startY3="0.000000" endX3="4096.000000" endY3="4096.000000" mapRadius3="5"/>
+	<MiniMap Filename="minimap3.dds" startX="0.000000" startY="0.000000" endX="4096.000000" endY="4096.000000"
+	Filename1="minimap3.dds" startX1="0.000000" startY1="0.000000" endX1="4096.000000" endY1="4096.000000"
+	Filename2="minimap0.dds" startX2="0.000000" startY2="0.000000" endX2="4096.000000" endY2="4096.000000"
+	Filename3="minimap1.dds" startX3="0.000000" startY3="0.000000" endX3="4096.000000" endY3="4096.000000"/>
   	<Gamerules MP1="TerrainControl" MP2="TeamSolarisArena" MP3="TestofStrength"/>
 	<LoadingScreens screen1="loadingscreen.dds"/> 
 	<HeaderText text="TC_Manassas"/>
