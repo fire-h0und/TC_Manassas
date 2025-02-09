@@ -3,9 +3,9 @@
 	Filename1="minimap3.dds" startX1="0.000000" startY1="0.000000" endX1="4096.000000" endY1="4096.000000"
 	Filename2="minimap0.dds" startX2="0.000000" startY2="0.000000" endX2="4096.000000" endY2="4096.000000"
 	Filename3="minimap1.dds" startX3="0.000000" startY3="0.000000" endX3="4096.000000" endY3="4096.000000"/>
-  	<Gamerules MP1="TerrainControl" MP2="TeamSolarisArena" MP3="TestofStrength"/>
+	<Gamerules MP1="TeamSolarisArena" MP2="TerrainControl" MP3="TestofStrength"/>
 	<LoadingScreens screen1="loadingscreen.dds"/> 
 	<HeaderText text="TC_Manassas"/>
-	<DescriptionText text="The artifact is the super-jump capable S.L.S.Manassas, enemy contacts closing ETA 2 minutes..."/>
-	<Display Name="TC_Manassas"/> 
+	<Display Name="TC_Manassas"/>
+	<DescriptionText text="Protect the super-jump capable S.L.S.Manassas K-F core: enemy contacts in ETA 2 minutes..."/>
 </MetaData>
