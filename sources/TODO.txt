@@ -1,0 +1,18 @@
+Big thanks to Ouch, RIck Hunter, Invictus and Insomniac_GamerTV for map testing!
+
+1. make sure the entities are teleported in sync on both server and cleint (half teleported entities)
+2. add number decals to discriminate levels
+3. update minimaps to reflect current level topology
+4. fix river on flooded area
+5. fix invisible outer wall (screenshoted)
+6. fix aurora back inside
+7. fix more vanir visarea and portal issues
+8. add details to ground around vanir
+9. add more vegetation outside
+10. add rocks to the mountains
+11. add eery grafiti decals across the levels
+12. make new endless storage area
+13. fix up operation area with grouping instead of links, add more details
+14. consider mid vanir and under aurora back teleport somewhere remote yet close
+15. make capture point work ASAP.
+16. make game mode TC ASAP.
