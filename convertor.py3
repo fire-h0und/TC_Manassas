@@ -21,11 +21,13 @@ from pygame.locals import *  # this is for QUIT to work
 
 import numpy as np
 import matplotlib.pyplot as plt
-off=0 #65536/4 #here we define the offset
+off=16384 #65536/4 #here we define the offset
 
-imgdir='/Program Files (x86)/Electronic Arts/Crytek/Crysis Wars/Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Warresst'
-img='terrain.pgm'
-outimg='terrain_scaled.pgm'
+#imgdir='/Program Files (x86)/Electronic Arts/Crytek/Crysis Wars/Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas'
+#imgdir='./sources/2. Terrain/'
+imgdir='./'
+img='Terrain.pgm'
+outimg='Terrain_Scaled.pgm'
 
 os.chdir( imgdir )
 os.listdir( os.curdir )
@@ -62,7 +64,8 @@ with open(img) as f:
     stuff[Y]=list(map(int, lines[3+Y].split()))
     print ('L:',Y,'/','\r',end="")
     for X in range ( 0, sizeX):
-      stuff[Y][X] = str(int(int(off+(stuff[Y][X])/2)))  #here we halve the height 
+#      stuff[Y][X] = str(int(int(off+(stuff[Y][X])/2)))  #here we halve the height 
+      stuff[Y][X] = str(int(int(off+(stuff[Y][X])/1)))  #here we adjust the height 
 
   print ('')
 print ('Accesing Output file:')
