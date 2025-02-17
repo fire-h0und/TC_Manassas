@@ -21,7 +21,7 @@ from pygame.locals import *  # this is for QUIT to work
 
 import numpy as np
 import matplotlib.pyplot as plt
-off=16384 #65536/4 #here we define the offset
+off=4096 #65536/4 #here we define the offset
 
 #imgdir='/Program Files (x86)/Electronic Arts/Crytek/Crysis Wars/Mods/MWLL/Game/Levels/Multiplayer/TC/TC_Manassas'
 #imgdir='./sources/2. Terrain/'
