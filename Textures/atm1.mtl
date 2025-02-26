@@ -1,6 +1,6 @@
 <Material MtlFlags="256">
  <SubMaterials>
-  <Material Name="casing" MtlFlags="128" Shader="Illum" GenMask="272633888" SurfaceType="" Diffuse="0.321569,0.321569,0.321569" Specular="0.35686299,0.35686299,0.35686299" Emissive="0,0,0" Shininess="10" Opacity="1">
+  <Material Name="casing" MtlFlags="128" Shader="Illum" GenMask="272633888" SurfaceType="mat_metal" Diffuse="0.321569,0.321569,0.321569" Specular="0.35686299,0.35686299,0.35686299" Emissive="0,0,0" Shininess="10" Opacity="1">
    <Textures>
     <Texture Map="Diffuse" File="objects/library/architecture/aircraftcarrier/props/electrical_boxes/ecabinet6_side_plain.tif">
      <TexMod />
@@ -14,7 +14,7 @@
    </Textures>
    <PublicParams AmbientMultiplier="1"/>
   </Material>
-  <Material Name="metal" MtlFlags="128" Shader="Metal" GenMask="268435456" SurfaceType="" Diffuse="0.29411799,0.29411799,0.29411799" Specular="1,1,1" Emissive="0,0,0" Shininess="5" Opacity="1">
+  <Material Name="metal" MtlFlags="128" Shader="Metal" GenMask="268435456" SurfaceType="mat_metal" Diffuse="0.29411799,0.29411799,0.29411799" Specular="1,1,1" Emissive="0,0,0" Shininess="5" Opacity="1">
    <Textures>
     <Texture Map="Diffuse" File="objects/library/architecture/airfield/terminal_building/shinymetal.tif">
      <TexMod />
@@ -25,7 +25,7 @@
    </Textures>
    <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
   </Material>
-  <Material Name="details" MtlFlags="128" Shader="Illum" GenMask="301993984" SurfaceType="" Diffuse="0.419608,0.419608,0.419608" Specular="0.72548997,0.72548997,0.72548997" Emissive="0,0,0" Shininess="10" Opacity="0.99000001">
+  <Material Name="details" MtlFlags="128" Shader="Illum" GenMask="301993984" SurfaceType="mat_metal_sheet" Diffuse="0.419608,0.419608,0.419608" Specular="0.72548997,0.72548997,0.72548997" Emissive="0,0,0" Shininess="10" Opacity="0.99000001">
    <Textures>
     <Texture Map="Diffuse" File="objects/library/props/electronic_devices/consoles/atm/atm_details.tif">
      <TexMod />
@@ -36,7 +36,7 @@
    </Textures>
    <PublicParams AmbientMultiplier="1"/>
   </Material>
-  <Material Name="screen" MtlFlags="128" Shader="Illum" GenMask="268443648" SurfaceType="" Diffuse="0.66666698,0.66666698,0.66666698" Specular="0.36470601,0.36470601,0.36470601" Emissive="0,0,0" Shininess="10" Opacity="1" GlowAmount="0.5">
+  <Material Name="screen" MtlFlags="128" Shader="Illum" GenMask="268443648" SurfaceType="mat_glass_unbreakable" Diffuse="0.66666698,0.66666698,0.66666698" Specular="0.36470601,0.36470601,0.36470601" Emissive="0,0,0" Shininess="10" Opacity="1" GlowAmount="0.5">
    <Textures>
     <Texture Map="Diffuse" File="objects/objects_mwll/architecture/props/comstar/tessapony/terminal_textures/terminal##01_10count(0.1).dds">
      <TexMod />
