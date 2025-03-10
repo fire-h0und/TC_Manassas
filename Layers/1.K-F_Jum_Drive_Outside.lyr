@@ -1,0 +1,18 @@
+<ObjectLayer>
+ <Layer Name="1.K-F_Jum_Drive_Outside" GUID="{87961307-E0B1-4C87-8AD7-28F87CEE3E43}" Hidden="0" Frozen="0" External="1" Exportable="1">
+  <LayerObjects>
+   <Object Type="Brush" Layer="1.K-F_Jum_Drive_Outside" Id="{8065042D-8606-43BC-8F4A-8FF9034DE470}" Name="K-F Jump Drive_Outside" Pos="2096,2032,30" Rotate="-0.48296279,-0.29619828,0.81379771,-0.12940957" Scale="0.88700002,0.88700002,0.88700002" ColorRGB="16053332" MatLayersMask="0" Prefab="mods/mwll/game/levels/multiplayer/tc/tc_manassas/architecture/props/all/kfwarshipjumpdrive/jumpdrive.cgf" OutdoorOnly="1" CastShadowMaps="1" SupportSecondVisarea="0" CastRAMmap="0" ReceiveRAMmap="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="2056"/>
+   <Object Type="AreaBox" Layer="1.K-F_Jum_Drive_Outside" Id="{20D76794-1848-4395-8CEB-2BE37B232901}" Name="AreaBox5" Pos="1510,3072,30" Rotate="0.70710671,0,0,-0.70710683" ColorRGB="16711680" MatLayersMask="0" AreaId="-1" FadeInZone="5" Width="200" Length="1120" Height="34" GroupId="0" Priority="15" ObstructRoof="1" ObstructFloor="1" Filled="0" EntityClass="AreaBox" BoxMin="-100,-560,0" BoxMax="100,560,34">
+    <Entities>
+     <Entity Id="{C9F118F5-CAEE-4553-8DF5-A73CDB8192E2}"/>
+    </Entities>
+   </Object>
+   <Object Type="Entity" Layer="1.K-F_Jum_Drive_Outside" Id="{BB206FEC-31DA-42F9-8C5B-1101E667B128}" Name="ReverbVolume3" Pos="3013,2162,-40" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ReverbVolume">
+    <Properties bEnabled="1" bFullEffectWhenInside="1" OuterRadius="2" reverbpresetReverbPreset="CarpetedHallway"/>
+   </Object>
+   <Object Type="Entity" Layer="1.K-F_Jum_Drive_Outside" Id="{C9F118F5-CAEE-4553-8DF5-A73CDB8192E2}" Name="ReverbVolume2" Pos="1510,3074,-124" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ReverbVolume">
+    <Properties bEnabled="1" bFullEffectWhenInside="1" OuterRadius="2" reverbpresetReverbPreset="MineBigCave"/>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

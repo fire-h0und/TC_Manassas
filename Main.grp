@@ -1,0 +1,127 @@
+<Objects>
+ <Object Type="AmbientVolume" Layer="Main" Id="{E86FA415-4DAB-4486-9482-D568D9D0F36D}" Name="AmbientVolume2" Pos="3027.25,2151.25,110" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="AmbientVolume">
+  <Properties bEnabled="1" bIgnoreCulling="1" bIgnoreObstruction="1" bLogBattleValue="0" soundName="sounds/environment:amb_industrial:amb_electric_room1" OuterRadius="10" bSensitiveToBattle="0"/>
+ </Object>
+ <Object Type="Shape" Layer="Main" Id="{29FFE7D4-1F7C-4D31-BA6C-AEF1520EDC0C}" Name="CaptureAreaShape" Pos="2022,2052,0" ColorRGB="16763904" Width="0" Height="44" AreaId="0" GroupId="0" Priority="0" Closed="1" ObstructRoof="0" ObstructFloor="0" DisplayFilled="1" EntityClass="AreaShape">
+  <Points>
+   <Point Pos="0,0,0"/>
+   <Point Pos="-124,-4,0"/>
+   <Point Pos="-204,115,0"/>
+   <Point Pos="-168,215,0"/>
+   <Point Pos="-96,267,0"/>
+   <Point Pos="13,259,0"/>
+   <Point Pos="89,153,0"/>
+   <Point Pos="65,56,0"/>
+  </Points>
+  <Entities>
+   <Entity Id="{DB774826-CF61-4018-B26E-7DAB8D303EFF}"/>
+  </Entities>
+ </Object>
+ <Object Type="Entity" Layer="Main" Id="{DB774826-CF61-4018-B26E-7DAB8D303EFF}" Name="CapturePoint1" Pos="1986,2181,57.75" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="CapturePoint">
+  <Properties CaptureRequirement="1" ClanWeight="2" DimX="0" DimY="0" DimZ="0" IsWeight="2" sStartingTeam="" sType="StrategicPoint"/>
+  <EntityLinks>
+   <Link TargetId="{29FFE7D4-1F7C-4D31-BA6C-AEF1520EDC0C}" Name="capture"/>
+  </EntityLinks>
+ </Object>
+ <Object Type="Entity" Layer="Main" Id="{F3C6C5A3-62C4-4BE6-AC56-FAA3ACF95D9D}" Name="ForbiddenArea1" Pos="1792,3193,265" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ForbiddenArea">
+  <Properties DamagePerSecond="500" Delay="5" bEnabled="1" bReversed="1" bShowWarning="1" teamName=""/>
+ </Object>
+ <Object Type="Shape" Layer="Main" Id="{67F173F2-9526-4616-8D52-23FA1BCDA585}" Name="OutOfBonds" Pos="3072,3232,0" ColorRGB="16763904" Width="0" Height="512" AreaId="0" GroupId="0" Priority="0" Closed="1" ObstructRoof="0" ObstructFloor="0" DisplayFilled="1" EntityClass="AreaShape">
+  <Points>
+   <Point Pos="0,0,0"/>
+   <Point Pos="0,-2208,0"/>
+   <Point Pos="-2208,-2208,0"/>
+   <Point Pos="-2272,32,0"/>
+  </Points>
+  <Entities>
+   <Entity Id="{F3C6C5A3-62C4-4BE6-AC56-FAA3ACF95D9D}"/>
+  </Entities>
+ </Object>
+ <Object Type="Prefab" Layer="Main" Id="{7395CD8E-2AD6-4914-855E-4D824F4634E2}" Name="Prefab1" Pos="2108,2202,-0.875" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{2F1CD5B3-642A-452F-B753-DEA31C364150}" PrefabName="MWll_Assets.TC_Beacon.tc_beacon_debris_2pcs-alt"/>
+ <Object Type="Prefab" Layer="Main" Id="{DF38EE7C-119C-4E75-A092-71AC1EBDDCA7}" Name="Prefab2" Pos="1924,2316,-0.875" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{2F1CD5B3-642A-452F-B753-DEA31C364150}" PrefabName="MWll_Assets.TC_Beacon.tc_beacon_debris_2pcs-alt"/>
+ <Object Type="Prefab" Layer="Main" Id="{C99C59DF-3728-485A-BA6D-1A90EC8B8C2D}" Name="Prefab3" Pos="2032,2308,-1" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{0C99FE11-E08B-4E4A-8716-98E4CE6098F2}" PrefabName="MWll_Assets.TC_Beacon.tc_beacon_debris_4pcs-alt"/>
+ <Object Type="Prefab" Layer="Main" Id="{4A68A016-361F-432E-A571-BFCF00C09038}" Name="Prefab4" Pos="1896,2046,-1" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{0C99FE11-E08B-4E4A-8716-98E4CE6098F2}" PrefabName="MWll_Assets.TC_Beacon.tc_beacon_debris_4pcs-alt"/>
+ <Object Type="Prefab" Layer="Main" Id="{8E6DCAB1-22F2-4D6B-9B96-11B1B3326F20}" Name="Prefab5" Pos="1816,2164,-0.875" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{438308CC-6AFF-43C5-9C2F-913CD9E12C1E}" PrefabName="MWll_Assets.TC_Beacon.tc_beacon_debris_3pcs-alt"/>
+ <Object Type="Prefab" Layer="Main" Id="{936821BF-73C5-4B9E-87AC-F36B5161BDCF}" Name="Prefab6" Pos="1853,2270,-0.875" Rotate="0.53729939,0,0,-0.84339154" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{438308CC-6AFF-43C5-9C2F-913CD9E12C1E}" PrefabName="MWll_Assets.TC_Beacon.tc_beacon_debris_3pcs-alt"/>
+ <Object Type="Prefab" Layer="Main" Id="{3C1228F8-6271-48A2-800D-36D2262A7FBA}" Name="Prefab7" Pos="2088,2105,-0.875" Rotate="0.84339142,0,0,0.53729963" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{2F1CD5B3-642A-452F-B753-DEA31C364150}" PrefabName="MWll_Assets.TC_Beacon.tc_beacon_debris_2pcs-alt"/>
+ <Object Type="Prefab" Layer="Main" Id="{E3A51B7E-F1B9-4CAC-8A6D-0A07B7118D1A}" Name="Prefab8" Pos="2023,2049,-1" Rotate="0.84339142,0,0,0.53729963" ColorRGB="56575" MatLayersMask="0" MergeGeom="0" PrefabGUID="{AFCBF1EC-BA5B-4B9A-8894-3EC6C89E70AA}" PrefabName="MWll_Assets.TC_Beacon.tc_beacon_debris_3pcs"/>
+ <Object Type="Road" Layer="Main" Id="{B1CDB8DA-60BC-47D5-A7CC-9A08651F4C18}" Name="Road1" Pos="2936,2025,165.75" ColorRGB="16763904" Material="Materials/terrain/roads/road_muddy_offset_11" Width="12" BorderWidth="6" StepSize="10" ViewDistRatio="50" TileLength="4" SortPriority="4">
+  <Points>
+   <Point Pos="0,0,0" Back="0,0,0" Forw="-7.8116612,-2.3991117,0" Angle="0" Width="0" IsDefaultWidth="1"/>
+   <Point Pos="-24,-5,0" Back="-15.829406,-4.8615155,0" Forw="-35.740925,-5.1989989,0" Angle="0" Width="0" IsDefaultWidth="1"/>
+   <Point Pos="-59,-1,0" Back="-47.511002,-3.427253,-0.016181672" Forw="-71.276733,1.5936756,0.017291155" Angle="0" Width="0" IsDefaultWidth="1"/>
+   <Point Pos="-95,10,0.099999905" Back="-83.9245,4.1026559,0.085616156" Forw="-109.94758,17.959101,0.11941233" Angle="0" Width="0" IsDefaultWidth="1"/>
+   <Point Pos="-136,40,0.099999905" Back="-123.07158,29.062283,0.10963325" Forw="-136,40,0.099999905" Angle="0" Width="0" IsDefaultWidth="1"/>
+  </Points>
+ </Object>
+ <Object Type="Road" Layer="Main" Id="{F3D35B92-4583-4E4B-8CA1-42AE31787209}" Name="Road2" Pos="2810,2141,169.10001" ColorRGB="16763904" Material="Materials/terrain/roads/road_muddy_offset_10" Width="12" BorderWidth="6" StepSize="10" ViewDistRatio="50" TileLength="4" SortPriority="0">
+  <Points>
+   <Point Pos="0,0,0" Back="0,0,0" Forw="11.221676,3.3209422,-1.1139631" Angle="0" Width="0" IsDefaultWidth="1"/>
+   <Point Pos="34,9,-2.6000061" Back="22.486542,6.6546659,-2.2322137" Forw="40.568092,10.337945,-2.8098209" Angle="0" Width="0" IsDefaultWidth="1"/>
+   <Point Pos="54,11,-1.7250061" Back="47.301472,10.678838,-1.7479463" Forw="59.499958,11.263697,-1.7061707" Angle="0" Width="0" IsDefaultWidth="1"/>
+   <Point Pos="70.5,10.75,-2.4750061" Back="64.995697,10.898765,-2.4750061" Forw="77.339973,10.565136,-2.4750061" Angle="0" Width="0" IsDefaultWidth="1"/>
+   <Point Pos="91,10,-1.7250061" Back="84.161232,10.205849,-1.8164946" Forw="96.623955,9.8307171,-1.6497692" Angle="0" Width="0" IsDefaultWidth="1"/>
+   <Point Pos="107.875,9.625,-1.9750061" Back="102.31899,10.513961,-1.9138913" Forw="110.80325,9.1564798,-2.0072162" Angle="0" Width="0" IsDefaultWidth="1"/>
+   <Point Pos="116,6,-2.0000005" Back="113.46526,7.5395851,-2.00352" Forw="116,6,-2.0000005" Angle="0" Width="0" IsDefaultWidth="1"/>
+  </Points>
+ </Object>
+ <Object Type="Road" Layer="Main" Id="{4DC47B22-B816-47DB-AEE6-D9CBD10DEE1A}" Name="Road3" Pos="2883,2049,165.75" ColorRGB="16763904" Material="Materials/terrain/roads/road_muddy_tracks_22" Width="8" BorderWidth="6" StepSize="4" ViewDistRatio="100" TileLength="4" SortPriority="8">
+  <Points>
+   <Point Pos="0,0,0" Back="0,0,0" Forw="-0.22040802,-6.0328994,0" Angle="0" Width="0" IsDefaultWidth="1"/>
+   <Point Pos="-2,-18,0" Back="-0.44451022,-12.166914,0" Forw="-3.1523023,-22.321135,0" Angle="0" Width="0" IsDefaultWidth="1"/>
+   <Point Pos="-8,-30,0" Back="-6.0855398,-25.958363,0" Forw="-9.0867367,-32.29422,0" Angle="0" Width="0" IsDefaultWidth="1"/>
+   <Point Pos="-11,-37,0" Back="-10.043872,-34.64835,0" Forw="-11,-37,0" Angle="0" Width="0" IsDefaultWidth="1"/>
+  </Points>
+ </Object>
+ <Object Type="Road" Layer="Main" Id="{1E362190-3AC8-4285-80C4-D35D4DD31A52}" Name="Road4" Pos="2851,2056,166.125" ColorRGB="16763904" Material="Materials/terrain/roads/road_muddy_tracks_22" Width="8" BorderWidth="6" StepSize="4" ViewDistRatio="100" TileLength="4" SortPriority="8">
+  <Points>
+   <Point Pos="0,0,0" Back="0,0,0" Forw="-2.3736508,-4.833817,0" Angle="0" Width="0" IsDefaultWidth="1"/>
+   <Point Pos="-6,-15,0" Back="-4.7890944,-9.7527428,0" Forw="-6.8244848,-18.572767,0" Angle="0" Width="0" IsDefaultWidth="1"/>
+   <Point Pos="-6,-26,0" Back="-5.7966099,-22.338978,0" Forw="-6.130744,-28.353394,0" Angle="0" Width="0" IsDefaultWidth="1"/>
+   <Point Pos="-7,-33,0" Back="-6.5665827,-30.683168,0" Forw="-7,-33,0" Angle="0" Width="0" IsDefaultWidth="1"/>
+  </Points>
+ </Object>
+ <Object Type="Road" Layer="Main" Id="{CFF32B58-F132-45ED-8E4A-E8832685B7CA}" Name="Road5" Pos="2848,2056,166.375" Rotate="0.93969262,0,0,-0.34202012" ColorRGB="16763904" Material="Materials/terrain/roads/road_muddy_tracks_22" Width="8" BorderWidth="6" StepSize="4" ViewDistRatio="100" TileLength="4" SortPriority="8">
+  <Points>
+   <Point Pos="0,0,0" Back="0,0,0" Forw="1.5261437,-5.3374424,0.002056909" Angle="0" Width="0" IsDefaultWidth="1"/>
+   <Point Pos="2.447876,-16.473145,0.0052390099" Back="3.1350982,-10.964502,0.0042254291" Forw="1.894253,-20.910881,0.0060555455" Angle="0" Width="0" IsDefaultWidth="1"/>
+   <Point Pos="-3.552124,-28.473145,0.0052390099" Back="-1.6376637,-24.431507,0.0052390099" Forw="-4.6388602,-30.767365,0.0052390099" Angle="0" Width="0" IsDefaultWidth="1"/>
+   <Point Pos="-6.552124,-35.473145,0.0052390099" Back="-5.5959959,-33.121494,0.0052390099" Forw="-6.552124,-35.473145,0.0052390099" Angle="0" Width="0" IsDefaultWidth="1"/>
+  </Points>
+ </Object>
+ <Object Type="Road" Layer="Main" Id="{3ADB562E-EC70-4D25-BA61-FE05DF3EE569}" Name="Road6" Pos="2899,2137,167.46042" Rotate="0.13052616,0,0,0.99144489" ColorRGB="16763904" Material="Materials/terrain/roads/road_muddy_tracks_22" Width="8" BorderWidth="6" StepSize="4" ViewDistRatio="100" TileLength="4" SortPriority="8">
+  <Points>
+   <Point Pos="0,0,0" Back="0,0,0" Forw="0.47417054,-3.971916,-0.012494634" Angle="0" Width="0" IsDefaultWidth="1"/>
+   <Point Pos="0,-12,-0.099999905" Back="0.96934855,-8.1198025,-0.025542825" Forw="-1.0834655,-16.336994,-0.18322247" Angle="0" Width="0" IsDefaultWidth="1"/>
+   <Point Pos="-5.9941406,-23.993896,-0.4604187" Back="-4.080142,-19.953234,-0.4604187" Forw="-7.0832219,-26.293068,-0.4604187" Angle="0" Width="0" IsDefaultWidth="1"/>
+   <Point Pos="-9,-31,-0.099999905" Back="-8.0429039,-28.64971,-0.27996615" Forw="-9,-31,-0.099999905" Angle="0" Width="0" IsDefaultWidth="1"/>
+  </Points>
+ </Object>
+ <Object Type="Road" Layer="Main" Id="{7210D4B6-2759-496D-A497-D540CC93ED3A}" Name="Road7" Pos="2863,2141,167" Rotate="0.13052616,0,0,0.99144489" ColorRGB="16763904" Material="Materials/terrain/roads/road_muddy_tracks_22" Width="8" BorderWidth="6" StepSize="4" ViewDistRatio="100" TileLength="4" SortPriority="8">
+  <Points>
+   <Point Pos="0,0,0" Back="0,0,0" Forw="0.49593982,-3.648087,0.033800121" Angle="0" Width="0" IsDefaultWidth="1"/>
+   <Point Pos="1.8811035,-10.884033,0" Back="0.99394411,-7.3113599,0.067740947" Forw="2.6363494,-13.925478,-0.057668403" Angle="0" Width="0" IsDefaultWidth="1"/>
+   <Point Pos="4.9111328,-19.777588,-0.375" Back="4.4591656,-16.676001,-0.375" Forw="5.2991695,-22.440458,-0.375" Angle="0" Width="0" IsDefaultWidth="1"/>
+   <Point Pos="4.3493652,-27.822266,0" Back="4.8159585,-25.178442,-0.18421949" Forw="4.3493652,-27.822266,0" Angle="0" Width="0" IsDefaultWidth="1"/>
+  </Points>
+ </Object>
+ <Object Type="Road" Layer="Main" Id="{07CB87E2-7C7F-4B8C-AC59-BCD0FDE716AB}" Name="Road8" Pos="2827,2137,167.25" ColorRGB="16763904" Material="Materials/terrain/roads/road_dirty_track_6" Width="4" BorderWidth="6" StepSize="4" ViewDistRatio="100" TileLength="4" SortPriority="0">
+  <Points>
+   <Point Pos="0,0,0" Back="0,0,0" Forw="-3.2629023,-10.154902,-0.34688991" Angle="0" Width="0" IsDefaultWidth="1"/>
+   <Point Pos="0,-32,-1" Back="-8.0204906,-24.961611,-0.85268486" Forw="12.580919,-43.040398,-1.2310781" Angle="0" Width="0" IsDefaultWidth="1"/>
+   <Point Pos="49,-43,-0.9000001" Back="32.593803,-39.674419,-0.92217064" Forw="57.271107,-44.676575,-0.88882291" Angle="0" Width="0" IsDefaultWidth="1"/>
+   <Point Pos="74,-47,-0.9000001" Back="65.562958,-47.196209,-0.9000001" Forw="80.225494,-46.855221,-0.9000001" Angle="0" Width="0" IsDefaultWidth="1"/>
+   <Point Pos="92,-42,-0.9000001" Back="86.963852,-45.662651,-0.9000001" Forw="95.155334,-39.705208,-0.9000001" Angle="0" Width="0" IsDefaultWidth="1"/>
+   <Point Pos="96,-31,-0.9000001" Back="93.604668,-34.079712,-0.9000001" Forw="98.498032,-27.788242,-0.9000001" Angle="0" Width="0" IsDefaultWidth="1"/>
+   <Point Pos="106,-24,-0.9000001" Back="105.09826,-27.96767,-0.9000001" Forw="107.16805,-18.860598,-0.9000001" Angle="0" Width="0" IsDefaultWidth="1"/>
+   <Point Pos="101,-9,-0.9000001" Back="104.30855,-13.102596,-0.9000001" Forw="95.640564,-2.3542995,-0.9000001" Angle="0" Width="0" IsDefaultWidth="1"/>
+   <Point Pos="81,7,-0.9000001" Back="88.194382,2.4032903,-0.9000001" Forw="81,7,-0.9000001" Angle="0" Width="0" IsDefaultWidth="1"/>
+  </Points>
+ </Object>
+ <Object Type="Entity" Layer="Main" Id="{6B2AFD38-787A-4987-AB14-AA6881B5462D}" Name="SpectatorPoint1" Pos="2838,2170,170" Rotate="-0.17364825,0,0,0.98480773" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="SpectatorPoint">
+  <Properties bEnabled="1"/>
+ </Object>
+ <Object Type="Entity" Layer="Main" Id="{D4C98B83-D80F-43D8-AD8C-C6A8090A646D}" Name="SpectatorPoint2" Pos="1041,1963,172.88402" Rotate="0.98480779,-0,0,-0.17364812" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="SpectatorPoint">
+  <Properties bEnabled="1"/>
+ </Object>
+</Objects>
